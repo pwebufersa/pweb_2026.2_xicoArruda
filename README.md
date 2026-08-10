@@ -8,4 +8,4 @@ Repositório da disciplina **Programação Web** da UFERSA Angicos no semestre 2
 
 ## [Quero muito](quero_muito.md) - nota entre 4,0 e 10,0
 
-Quem não fizer **nada** será reprovado.
+Quem não fizer **nada** será **reprovado**.

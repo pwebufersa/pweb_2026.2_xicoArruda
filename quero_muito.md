@@ -10,7 +10,7 @@ Cada exercício soma à nota de partida (4,0). Os prazos são inegociáveis.
 
 ### Aula 1 - 14/08/2026 (1,0)
 
-- **Tópicos:** Ambiente, VSCode, Java, GitHub Desktop, Front e Back End, repositório no GitHub, HTML, CSS, Pico.css e W3.CSS.
+- **Tópicos:** Ambiente, VSCode, Java, GitHub Desktop, Front e Back End, repositório no GitHub, HTML, CSS.
 - **Exercícios:** [Clique aqui](unidade1/aula1.md)
 - **Prazo de entrega:** 20/08/2026 até 23:59 (inegociável)
 
