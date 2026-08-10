@@ -1,0 +1,15 @@
+curl -X GET http://localhost:8080/clientes
+
+curl -X GET http://localhost:8080/clientes/1
+
+curl -X POST -H "Content-Type: application/json" -d '{
+"nomeCompleto": "Xico via Console",
+"email": "curl@curl.com",
+"telefone": "123456789"
+}' http://localhost:8080/clientes
+
+curl -X PUT -H "Content-Type: application/json" -d '{
+"nomeCompleto": "Modificado"
+}' http://localhost:8080/clientes/1
+
+curl -X DELETE http://localhost:8080/clientes/1
