@@ -96,5 +96,16 @@ Cada exercício soma à nota de partida (4,0). Os prazos são inegociáveis.
 - [Gustavo Guanabara](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
 - [Markdown - Gustavo Guanabara](/git_github_gguanabara)
 
+### Um site muito rápido
+- [McMaster-Carr](https://www.mcmaster.com/)
+- [Vídeo explicando](https://www.youtube.com/watch?v=-Ln-8QM8KhQ)
+
+### Sobre a carreira
+- [Não terceirize suas decisões - Fábio Akita](https://www.youtube.com/watch?v=D3L8IOncLkg)
+- [Crise na Engenharia de Software? - Renato Augusto](https://youtu.be/oDXDYjksMds?si=iwzvwaMtw1rxIpOu)
+
+### Mudando o lero-lero do ChatGPT
+- [Mudando a personalidade do GPT - Fábio Akita](https://akitaonrails.com/2025/04/28/destruindo-a-personalidade-do-chatgpt-4o/)
+
 ### Requisitos de um encurtador de URL
 - [System Design - Renato Augusto](https://www.youtube.com/watch?v=m_anIoKW7Jg)
