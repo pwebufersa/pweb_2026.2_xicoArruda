@@ -1,6 +1,6 @@
 # Programação Web - 2026.2 - UFERSA Angicos
 
-## Quero pouco (nota entre 4,0 e 5,0). Entregue tudo até 05/12/2026.
+## Quero pouco (nota entre 4,0 e 5,0 na média). Entregue tudo até 05/12/2026.
 
 1 - Crie um repositório **privado** no formato `pweb_2026.2_primeironomeSegundonome`. Adicione a conta `pwebufersa` como colaborador e avise xico@ufersa.edu.br. O professor deve conseguir rodar tudo sem sua ajuda.
 
