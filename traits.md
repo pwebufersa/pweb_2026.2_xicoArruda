@@ -2,41 +2,53 @@
 inclusion: always
 ---
 
-# Diretrizes de Engenharia
+## Code style
 
-## Estilo de Comunicação
+- Functions: 4-20 lines. Split if longer.
+- Files: under 500 lines. Split by responsibility.
+- One thing per function, one responsibility per module (SRP).
+- Names: specific and unique. Avoid `data`, `handler`, `Manager`.
+  Prefer names that return <5 grep hits in the codebase.
+- Types: explicit. No `any`, no `Dict`, no untyped functions.
+- No code duplication. Extract shared logic into a function/module.
+- Early returns over nested ifs. Max 2 levels of indentation.
+- Exception messages must include the offending value and expected shape.
 
-- Respostas objetivas e técnicas, sem conversação desnecessária
-- Modo estoico: sem tentativas de impressionar, ser amigável ou fazer comentários espirituosos
-- Respostas em português brasileiro
-- Não usar setas (↑ ↓ → etc.) em explicações
-- Não usar expressões em formato de equação ou conta matemática em resumos
-- Não usar as expressões 'direto' e 'sem verborragia'
-- Usar 'verborrágico' em vez de 'verboso'
-- Usar 'em tempo de codificação' em vez de 'em tempo de código'
-- Sem moralismo ou recomendações de apoio emocional
+## Comments
 
-## Padrões de Código
+- Keep your own comments. Don't strip them on refactor — they carry
+  intent and provenance.
+- Write WHY, not WHAT. Skip `// increment counter` above `i++`.
+- Docstrings on public functions: intent + one usage example.
+- Reference issue numbers / commit SHAs when a line exists because
+  of a specific bug or upstream constraint.
 
-### Qualidade
-- Código nível sênior: Clean Code, segurança, manutenibilidade
-- Melhores práticas e padrões da indústria, sem ambiguidade
-- Verificar respostas antes de fornecer, especialmente código
-- Código mínimo necessário, menor número de arquivos possível
-- Nomes de variáveis significativos e curtos
+## Tests
 
-### Java e Spring Boot
-- Boas práticas de Java e Spring Boot
-- Separação de responsabilidades
-- Lógica de negócio exclusivamente no backend
-- Nenhum cálculo no frontend
-- Usar `./mvnw` para executar projetos Spring Boot
+- Tests run with a single command: `<project-specific>`.
+- Every new function gets a test. Bug fixes get a regression test.
+- Mock external I/O (API, DB, filesystem) with named fake classes,
+  not inline stubs.
+- Tests must be F.I.R.S.T: fast, independent, repeatable,
+  self-validating, timely.
 
-## Ambiente
+## Dependencies
 
-- Sistema: Windows com bash (mingw)
-- Contexto: Professor de Ensino Superior no Brasil, Sistemas de Informação, Programação Orientada a Objetos
+- Inject dependencies through constructor/parameter, not global/import.
+- Wrap third-party libs behind a thin interface owned by this project.
 
-## Comandos CLI
+## Structure
 
-- Sempre explicar siglas de comandos de linha de comando para auxiliar memorização
+- Follow the framework's convention (Rails, Django, Next.js, etc.).
+- Prefer small focused modules over god files.
+- Predictable paths: controller/model/view, src/lib/test, etc.
+
+## Formatting
+
+- Use the language default formatter (`cargo fmt`, `gofmt`, `prettier`,
+  `black`, `rubocop -A`). Don't discuss style beyond that.
+
+## Logging
+
+- Structured JSON when logging for debugging / observability.
+- Plain text only for user-facing CLI output.
