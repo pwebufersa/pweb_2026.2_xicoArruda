@@ -16,7 +16,19 @@
 - **Exercícios:** [Clique aqui](unidade1/aula2.md)
 - **Prazo de entrega:** 03/09/2026 até 23:59 (inegociável)
 
-### Aula 3 - 04/09/2026 (3,0)
+### Aula 3 - 28/08/2026 (2,0)
+
+- **Tópicos:** CadPessoas - Projeto Spring, HTML, CSS, MVC, Index, Maven.
+- **Exercícios:** [Clique aqui](unidade1/aula2.md)
+- **Prazo de entrega:** 03/09/2026 até 23:59 (inegociável)
+
+### Aula 4 - 04/09/2026 (3,0)
+
+- **Tópicos:** MVC, Correção da Unidade 1.
+- **Exercícios:** [Clique aqui](unidade1/aulaX.md)
+- **Prazo de entrega:** 17/09/2026 até 22:10 (inegociável)
+
+### Aula 5 - 11/09/2026 (3,0)
 
 - **Tópicos:** MVC, Correção da Unidade 1.
 - **Exercícios:** [Clique aqui](unidade1/aulaX.md)
@@ -26,19 +38,31 @@
 
 ## Unidade 2
 
-### Aula 4 - 18/09/2026 (1,0)
+### Aula 6 - 18/09/2026 (1,0)
 
 - **Tópicos:** Explicação do projeto da disciplina. Encurtador de URL.
 - **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
 - **Prazo de entrega:** 01/10/2026 até 22:10 (inegociável)
 
-### Aula 5 - 02/10/2026 (2,0)
+### Aula 7 - 25/09/2026 (1,0)
+
+- **Tópicos:** Explicação do projeto da disciplina. Encurtador de URL.
+- **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
+- **Prazo de entrega:** 01/10/2026 até 22:10 (inegociável)
+
+### Aula 8 - 02/10/2026 (2,0)
 
 - **Tópicos:** CRUD de Cliente, CRUD de Produto.
 - **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
 - **Prazo de entrega:** 15/10/2026 até 22:10 (inegociável)
 
-### Aula 6 - 16/10/2026 (3,0)
+### Aula 9 - 16/10/2026 (3,0)
+
+- **Tópicos:** Correção da Unidade 2, CRUD de Dependente, CRUD de Pedido.
+- **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
+- **Prazo de entrega:** 29/10/2026 até 22:10 (inegociável)
+
+### Aula 10 - 23/10/2026 (3,0)
 
 - **Tópicos:** Correção da Unidade 2, CRUD de Dependente, CRUD de Pedido.
 - **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
@@ -48,19 +72,31 @@
 
 ## Unidade 3
 
-### Aula 7 - 30/10/2026 (1,0)
+### Aula 11 - 30/10/2026 (1,0)
 
 - **Tópicos:** Faça o projeto da disciplina - Milestone 2.
 - **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
 - **Prazo de entrega:** 12/11/2026 até 23:59 (inegociável)
 
-### Aula 8 - 13/11/2026 (2,0)
+### Aula 12 - 06/11/2026 (1,0)
+
+- **Tópicos:** Faça o projeto da disciplina - Milestone 2.
+- **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
+- **Prazo de entrega:** 12/11/2026 até 23:59 (inegociável)
+
+### Aula 13 - 13/11/2026 (2,0)
 
 - **Tópicos:** Faça o projeto da disciplina - Milestone 2.
 - **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
 - **Prazo de entrega:** 03/12/2026 até 23:59 (inegociável)
 
-### Aula 9 - 04/12/2026 (3,0)
+### Aula 14 - 27/11/2026 (2,0)
+
+- **Tópicos:** Faça o projeto da disciplina - Milestone 2.
+- **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
+- **Prazo de entrega:** 03/12/2026 até 23:59 (inegociável)
+
+### Aula 15 - 04/12/2026 (3,0)
 
 - **Tópicos:** Faça o projeto da disciplina - Milestone 2.
 - **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
