@@ -1,5 +1,9 @@
-### U1 - Aula 1 - 14/08/2026 (1,0)
+### U1 - Aula 1 - 21/08/2026 (1,0)
 Ambiente, VSCode, Java, GitHub Desktop, Front e Back End, repositório no GitHub, HTML, CSS.
+
+### Parte 0 - HTML e erro de encoding
+1. Encoding [errado](encoding_errado.html).
+2. Encoding [correto](encoding_correto.html).
 
 ### Parte 1 - Configurando e Testando o Ambiente de Desenvolvimento
 
