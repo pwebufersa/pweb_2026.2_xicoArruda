@@ -1,9 +1,11 @@
 ### U1 - Aula 1 - 21/08/2026 (1,0)
 Ambiente, VSCode, Java, GitHub Desktop, Front e Back End, repositório no GitHub, HTML, CSS.
 
-### Parte 0 - HTML e erro de encoding
+### Parte 0 - HTML, encoding e CSS
 1. Encoding [errado](encoding_errado.html).
 2. Encoding [correto](encoding_correto.html).
+3. Componentes usando [CSS](componentes_css.html).
+4. Exemplos CadPessoas.
 
 ### Parte 1 - Configurando e Testando o Ambiente de Desenvolvimento
 
@@ -35,3 +37,4 @@ Ambiente, VSCode, Java, GitHub Desktop, Front e Back End, repositório no GitHub
 O arquivo **design-system.?** deve conter: A foto de referência com caminho relativo para o arquivo em assets, a paleta de cores extraída da foto com no mínimo 3 cores e considerando o círculo cromático, e também a tipografia escolhida.
 
 7. Conforme for fazendo o exercício, faça _commit_ e sincronizações periódicas. Apenas 1 _commit_ ao final é perigoso.
+
