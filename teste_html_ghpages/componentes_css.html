@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componentes de Interface</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 40px;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 24px;
+            padding: 24px;
+            border-radius: 10px;
+        }
+
+        h1, h2 {
+            margin-top: 0;
+        }
+
+        button {
+            padding: 10px 16px;
+            border: 0;
+            border-radius: 6px;
+            background: #2563eb;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+
+        .skeleton-card {
+            max-width: 400px;
+        }
+
+        .skeleton {
+            background: #e5e7eb;
+            border-radius: 6px;
+            animation: pulse 1.5s infinite;
+        }
+
+        .skeleton-image {
+            height: 180px;
+            margin-bottom: 16px;
+        }
+
+        .skeleton-title {
+            width: 60%;
+            height: 20px;
+            margin-bottom: 12px;
+        }
+
+        .skeleton-text {
+            width: 100%;
+            height: 14px;
+            margin-bottom: 8px;
+        }
+
+        .skeleton-text:last-child {
+            width: 75%;
+        }
+
+        @keyframes pulse {
+            50% { opacity: 0.5; }
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgb(0 0 0 / 0.5);
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.open {
+            display: flex;
+        }
+
+        .modal-content {
+            width: min(500px, 90%);
+            background: white;
+            padding: 24px;
+            border-radius: 10px;
+        }
+
+        dialog {
+            border: 0;
+            border-radius: 10px;
+            padding: 24px;
+            box-shadow: 0 10px 40px rgb(0 0 0 / 0.3);
+        }
+
+        dialog::backdrop {
+            background: rgb(0 0 0 / 0.5);
+        }
+
+        .tooltip {
+            position: relative;
+            display: inline-block;
+        }
+
+        .tooltip-text {
+            visibility: hidden;
+            position: absolute;
+            bottom: calc(100% + 8px);
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 8px 10px;
+            background: #222;
+            color: white;
+            border-radius: 5px;
+            white-space: nowrap;
+            font-size: 14px;
+        }
+
+        .tooltip:hover .tooltip-text {
+            visibility: visible;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: calc(100% + 4px);
+            right: 0;
+            min-width: 160px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            box-shadow: 0 4px 12px rgb(0 0 0 / 0.15);
+            overflow: hidden;
+        }
+
+        .dropdown-menu.open {
+            display: block;
+        }
+
+        .dropdown-menu button {
+            display: block;
+            width: 100%;
+            border-radius: 0;
+            text-align: left;
+            background: white;
+            color: #222;
+        }
+
+        .dropdown-menu button:hover {
+            background: #f1f5f9;
+        }
+
+        .toast {
+            position: fixed;
+            right: 24px;
+            bottom: 24px;
+            padding: 16px 20px;
+            background: #222;
+            color: white;
+            border-radius: 8px;
+            transform: translateY(100px);
+            opacity: 0;
+            transition: 0.3s;
+        }
+
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .snackbar {
+            position: fixed;
+            left: 50%;
+            bottom: 24px;
+            transform: translate(-50%, 100px);
+            background: #222;
+            color: white;
+            padding: 14px 20px;
+            border-radius: 6px;
+            opacity: 0;
+            transition: 0.3s;
+        }
+
+        .snackbar.show {
+            transform: translate(-50%, 0);
+            opacity: 1;
+        }
+
+        .drawer {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+        }
+
+        .drawer-backdrop {
+            position: absolute;
+            inset: 0;
+            background: rgb(0 0 0 / 0.5);
+            opacity: 0;
+            transition: 0.3s;
+        }
+
+        .drawer-content {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 300px;
+            padding: 24px;
+            background: white;
+            transform: translateX(-100%);
+            transition: 0.3s;
+        }
+
+        .drawer.open {
+            pointer-events: auto;
+        }
+
+        .drawer.open .drawer-backdrop {
+            opacity: 1;
+        }
+
+        .drawer.open .drawer-content {
+            transform: translateX(0);
+        }
+
+        .sheet {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+        }
+
+        .sheet-backdrop {
+            position: absolute;
+            inset: 0;
+            background: rgb(0 0 0 / 0.5);
+            opacity: 0;
+            transition: 0.3s;
+        }
+
+        .sheet-content {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 24px;
+            background: white;
+            border-radius: 16px 16px 0 0;
+            transform: translateY(100%);
+            transition: 0.3s;
+        }
+
+        .sheet.open {
+            pointer-events: auto;
+        }
+
+        .sheet.open .sheet-backdrop {
+            opacity: 1;
+        }
+
+        .sheet.open .sheet-content {
+            transform: translateY(0);
+        }
+
+        .card {
+            max-width: 350px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            background: white;
+        }
+
+        .card-image {
+            height: 160px;
+            background: #d1d5db;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-title {
+            margin: 0 0 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<main>
+    <h1>Componentes de Interface</h1>
+
+    <section>
+        <h2>1. Skeleton Loading</h2>
+        <p>Representa visualmente o conteúdo enquanto os dados estão sendo carregados.</p>
+        <div class="skeleton-card">
+            <div class="skeleton skeleton-image"></div>
+            <div class="skeleton skeleton-title"></div>
+            <div class="skeleton skeleton-text"></div>
+            <div class="skeleton skeleton-text"></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>2. Modal</h2>
+        <p>Janela sobreposta ao conteúdo principal.</p>
+        <button onclick="openModal()">Abrir modal</button>
+    </section>
+
+    <section>
+        <h2>3. Dialog</h2>
+        <p>O elemento HTML <code>&lt;dialog&gt;</code> fornece uma implementação nativa de diálogo.</p>
+        <button onclick="document.querySelector('#dialog').showModal()">Abrir dialog</button>
+    </section>
+
+    <section>
+        <h2>4. Tooltip</h2>
+        <p>Pequena explicação exibida quando o usuário passa o mouse.</p>
+        <span class="tooltip">
+            <button>?</button>
+            <span class="tooltip-text">Esta é uma explicação contextual.</span>
+        </span>
+    </section>
+
+    <section>
+        <h2>5. Dropdown</h2>
+        <p>Menu com opções que aparece após uma interação.</p>
+        <div class="dropdown">
+            <button onclick="toggleDropdown()">Opções</button>
+            <div id="dropdownMenu" class="dropdown-menu">
+                <button>Editar</button>
+                <button>Duplicar</button>
+                <button>Excluir</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>6. Toast</h2>
+        <p>Mensagem breve usada para informar o resultado de uma ação.</p>
+        <button onclick="showToast()">Mostrar toast</button>
+    </section>
+
+    <section>
+        <h2>7. Snackbar</h2>
+        <p>Mensagem temporária que pode oferecer uma operação adicional.</p>
+        <button onclick="showSnackbar()">Mostrar snackbar</button>
+    </section>
+
+    <section>
+        <h2>8. Drawer</h2>
+        <p>Painel que desliza pela lateral da interface.</p>
+        <button onclick="openDrawer()">Abrir drawer</button>
+    </section>
+
+    <section>
+        <h2>9. Sheet</h2>
+        <p>Painel que desliza a partir da parte inferior.</p>
+        <button onclick="openSheet()">Abrir sheet</button>
+    </section>
+
+    <section>
+        <h2>10. Card</h2>
+        <p>Componente para agrupar informações relacionadas.</p>
+        <article class="card">
+            <div class="card-image"></div>
+            <div class="card-body">
+                <h3 class="card-title">Um exemplo de card.</h3>
+                <p>Um card utilizando HTML e CSS.</p>
+                <button>Saiba mais</button>
+            </div>
+        </article>
+    </section>
+</main>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <h2>Modal</h2>
+        <p>O conteúdo principal continua atrás desta camada.</p>
+        <button onclick="closeModal()">Fechar</button>
+    </div>
+</div>
+
+<dialog id="dialog">
+    <h2>Dialog nativo</h2>
+    <p>Este componente utiliza a API nativa do navegador.</p>
+    <button onclick="document.querySelector('#dialog').close()">Fechar</button>
+</dialog>
+
+<div id="toast" class="toast">Operação realizada com sucesso.</div>
+
+<div id="snackbar" class="snackbar">Item removido.</div>
+
+<div id="drawer" class="drawer">
+    <div class="drawer-backdrop" onclick="closeDrawer()"></div>
+    <aside class="drawer-content">
+        <h2>Menu</h2>
+        <nav>
+            <p>Início</p>
+            <p>Produtos</p>
+            <p>Configurações</p>
+        </nav>
+        <button onclick="closeDrawer()">Fechar</button>
+    </aside>
+</div>
+
+<div id="sheet" class="sheet">
+    <div class="sheet-backdrop" onclick="closeSheet()"></div>
+    <div class="sheet-content">
+        <h2>Sheet</h2>
+        <p>Este painel surgiu pela parte inferior da tela.</p>
+        <button onclick="closeSheet()">Fechar</button>
+    </div>
+</div>
+
+<script>
+    function openModal() {
+        document.querySelector("#modal").classList.add("open");
+    }
+
+    function closeModal() {
+        document.querySelector("#modal").classList.remove("open");
+    }
+
+    function toggleDropdown() {
+        document.querySelector("#dropdownMenu").classList.toggle("open");
+    }
+
+    function showToast() {
+        const toast = document.querySelector("#toast");
+        toast.classList.add("show");
+        setTimeout(() => toast.classList.remove("show"), 3000);
+    }
+
+    function showSnackbar() {
+        const snackbar = document.querySelector("#snackbar");
+        snackbar.classList.add("show");
+        setTimeout(() => snackbar.classList.remove("show"), 3000);
+    }
+
+    function openDrawer() {
+        document.querySelector("#drawer").classList.add("open");
+    }
+
+    function closeDrawer() {
+        document.querySelector("#drawer").classList.remove("open");
+    }
+
+    function openSheet() {
+        document.querySelector("#sheet").classList.add("open");
+    }
+
+    function closeSheet() {
+        document.querySelector("#sheet").classList.remove("open");
+    }
+</script>
+
+</body>
+</html>
