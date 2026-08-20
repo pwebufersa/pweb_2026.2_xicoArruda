@@ -5,7 +5,8 @@ Ambiente, VSCode, Java, GitHub Desktop, Front e Back End, repositório no GitHub
 1. Encoding [errado](encoding_errado.html).
 2. Encoding [correto](encoding_correto.html).
 3. Componentes usando [CSS](componentes_css.html).
-4. Exemplos CadPessoas.
+4. Teste de hospedagem [ghpages](https://pwebufersa.github.io/pweb_2026.2_xicoArruda/teste_html_ghpages/).
+5. Exemplos CadPessoas.
 
 ### Parte 1 - Configurando e Testando o Ambiente de Desenvolvimento
 
