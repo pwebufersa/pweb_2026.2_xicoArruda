@@ -23,7 +23,7 @@ Ambiente, VSCode, Java, GitHub Desktop, Front e Back End, repositório no GitHub
 
 ### Parte 2 - HTML, CSS, Javascript e Design System (1,0)
 
-1. Usando HTML, CSS e Javascript, recrie o site descrito a seguir. Coloque tudo na pasta **u1_exercicio1**. No total você entregará 8 arquivos .html, 1 pasta **assets** com 2 imagens e 1 arquivo **design-system.md**. Valide pelo menos um campo do formulário com Javascript.
+1. Usando HTML, CSS e Javascript, recrie o site descrito a seguir. Coloque tudo na pasta **u1_exercicio1**. No total você entregará 8 arquivos .html, 1 pasta **assets** com 2 imagens e 1 arquivo **design-system.?**. Valide pelo menos um campo do formulário com Javascript.
 
 2. [Nessa imagem](u1_exercicio1_pt2_estruturaDir.jpg) há o nome dos arquivos e diretórios que você deve entregar.
 
