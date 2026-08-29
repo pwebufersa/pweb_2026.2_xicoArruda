@@ -20,7 +20,7 @@
 
 - **Tópicos:** CadPessoas - Projeto Spring, HTML, CSS, MVC, Index, Maven.
 - **Exercícios:** [Clique aqui](unidade1/aula2.md)
-- **Prazo de entrega:** 03/09/2026 até 23:59 
+- **Prazo de entrega:** 00/09/2026 até 23:59 
 
 ### Aula 3 - 04/09/2026 (3,0)
 
