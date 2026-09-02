@@ -14,7 +14,7 @@
 
 - **Tópicos:** Ambiente, VSCode, Java, GitHub Desktop, Front e Back End, repositório no GitHub, HTML, CSS.
 - **Exercícios:** [Clique aqui](unidade1/aula1.md)
-- **Prazo de entrega:** 03/09/2026 até 23:59
+- **Prazo de entrega:** 04/09/2026 até 23:59
 
 ### Aula 2 - 28/08/2026 (2,0)
 
