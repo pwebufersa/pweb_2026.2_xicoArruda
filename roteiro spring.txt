@@ -23,7 +23,7 @@ Imagine quão mais fácil é se, além de pré-montado, o canteiro de obras já 
 
 Depois que a casa fica pronta, ela tem que ser colocada em funcionamento. É preciso ligar a energia da COSERN, a água da CAERN, testar a carga de energia, esperar a primeira chuva pra ver se tem goteira.
 
-Tem outra consideração, imagine que o proprietário precise de peças, tipo uma telha que quebrou durante a obra. Ele não fabrica as peças, mas ele faz um pedido para a construtora, que vai pedir para a indústria de telhas: "quero dez telhas de fibrocimento de 5 por 2" (telha, fibrocimento, verde, 5, 2). A indústria recebe o pedido, fabrica ou separa as peças e entrega. O proprietário não precisa saber como a telha é feita por dentro, só precisa saber o formato do pedido e o que vai receber de volta.
+Tem outra consideração, imagine que o proprietário precise de peças, tipo uma telha que quebrou durante a obra. Ele não fabrica as peças, mas ele faz um pedido para a construtora, que vai pedir para a indústria de telhas: "quero dez telhas de fibrocimento de 5 por 2" (telha, fibrocimento, verde, 10, 5, 2). A indústria recebe o pedido, fabrica ou separa as peças e entrega. O proprietário não precisa saber como a telha é feita por dentro, só precisa saber o formato do pedido e o que vai receber de volta.
 
 Vê-se que no sistema pré-moldado, dá pra mudar pouca coisa, mas garante-se a homogeneidade, padronização e que consiga-se construir muitas casas do mesmo jeito. Um encanador que trabalha nesse tipo de casa sabe exatamente onde ficam os pontos, independente da casa.
 
@@ -34,7 +34,7 @@ Em computação, cada conceito apresentado tem seu equivalente.
 | Elemento da metáfora | Conceito de computação |
 |----------------------|------------------------|
 | Ferramentas (furadeira, betoneira, serrote) | Biblioteca |
-| Inversão de quem controla o fluxo da obra | Inversão de controle |
+| Inversão do fluxo da obra | Inversão de controle |
 | Sistema pré-montado (kit + manual) | Framework |
 | Kit específico para casas em Angicos | Spring Framework |
 | Canteiro de obras já preparado | Scaffolding |
@@ -46,36 +46,31 @@ Em computação, cada conceito apresentado tem seu equivalente.
 
 Uma **biblioteca** fornece código reutilizável para tarefas específicas. A aplicação usa a biblioteca quando precisa daquela funcionalidade e mantém o controle do fluxo. É como a furadeira: o construtor decide quando usar e ela faz apenas aquilo para o que foi projetada. Por exemplo, geração de números aleatórios, geração de números primos, fazer uma consulta num bd postgres.
 
-Um **framework** fornece uma estrutura mais ampla e participa da execução da aplicação. O framework organiza o fluxo e determina os momentos em que o código do programador será executado. É como o sistema pré-montado: o construtor executa as tarefas, mas a sequência e a integração são definidas pelo manual.
-
-Sem framework:  
-Aplicação → chama biblioteca → recebe resultado  
-O código controla quando a biblioteca é usada.
-
-Com framework:  
-Framework → conduz a execução → chama código da aplicação → continua a execução  
-O framework controla parte do fluxo.
-
-Esse princípio é chamado de **inversão de controle**.
+Um **framework** fornece uma estrutura mais ampla e participa da execução da aplicação. O framework organiza o fluxo e determina os momentos em que o código do programador será executado, e pode definir até os nomes das pastas que contém o conteúdo html, css e js.
 
 ### 5. Scaffolding e bootstrapping
 
-**Scaffolding** é a estrutura inicial criada para facilitar o início de um projeto. É o canteiro de obras já preparado: fundação pronta, organização básica definida, alguns elementos já montados.
+**Scaffolding** é a estrutura inicial criada para facilitar o início de um projeto. É o canteiro de obras já preparado: fundação pronta, organização básica definida, alguns elementos já montados, os materiais já foram entregues no canteiro da obra.
 
-**Bootstrapping** é a inicialização da aplicação e a preparação dos componentes necessários para que ela funcione. É ligar a energia, a água, os equipamentos e colocar a casa em condições de uso.
-
-Scaffolding → criação do projeto.  
-Bootstrapping → inicialização para execução.
+**Bootstrapping** é a inicialização da aplicação e a preparação dos componentes necessários para que ela funcione. É ligar a energia, a água e colocar a casa "pra rodar".
 
 ### 6. API
 
-Uma **API** define uma interface por meio da qual um componente ou serviço pode ser usado por outro. Na metáfora, é o pedido feito para a indústria. O proprietário faz uma solicitação seguindo regras conhecidas — "quero dez telhas de 5 por 2" — e recebe um resultado sem precisar saber como a telha é fabricada.
+Uma **API** define uma interface por meio da qual um componente ou serviço pode ser usado por outro. Na metáfora, é o pedido feito para a indústria. O proprietário faz uma solicitação seguindo regras conhecidas (telha, fibrocimento, verde, 10, 5, 2) e recebe um resultado sem precisar saber como a telha é fabricada. É assim que sistemas diferentes interoperam
 
 Uma API estabelece **como** uma funcionalidade pode ser solicitada e **quais regras** devem ser seguidas.
 
+6.1 - Spring Framework
+O Spring Framework é um framework para desenvolvimento de aplicações Java, tal qual o sistema de construção pré-montado. O Spring também fornece mecanismos para criação e gerenciamento de objetos, configuração de componentes e integração entre partes da aplicação.
+
+O Spring Initializr (start.spring.io) fornece o scaffolding para criação da estrutura inicial do projeto.
+
+O Spring Boot (bootstrapping) fornece mecanismos que simplificam a criação, configuração e inicialização de aplicações baseadas nessa estrutura. 
+
+
 ### 7. Por que o Spring é de graça?
 
-O Spring é um projeto de **código aberto**. O código-fonte está disponível para qualquer pessoa usar, modificar e distribuir. Mas isso não significa que ninguém ganha dinheiro.
+O Spring é um projeto de **código aberto**. O código-fonte está disponível para qualquer pessoa usar, modificar e distribuir. E como ganhar dinheiro com isso?
 
 A empresa por trás do Spring ganha dinheiro com:
 
@@ -84,25 +79,11 @@ A empresa por trás do Spring ganha dinheiro com:
 - **Ferramentas complementares**: produtos e serviços em volta do Spring que são pagos.
 - **Serviços gerenciados**: infraestrutura e serviços de nuvem.
 
-O código é gratuito, mas o conhecimento especializado, o suporte e os serviços em volta dele são cobrados.
+O código é gratuito mas o conhecimento especializado são cobrados.
 
-Além disso, empresas como Google, Amazon e Netflix usam o Spring. Quando encontram problemas, corrigem e enviam a correção de volta para o projeto. Isso melhora o Spring para todo mundo. Quanto mais gente usa, mais bugs são encontrados, mais melhorias são feitas, mais o projeto fica forte.
+Google, Amazon e Netflix usam o Spring. Quando encontram problemas, corrigem e enviam a correção de volta para o projeto, melhorando o Spring para todo mundo. Quanto mais gente usa, mais bugs são encontrados, mais melhorias são feitas, e o projeto avança e fica mais resiliente.
 
-Resumindo: o Spring é gratuito porque o modelo de negócio do código aberto funciona assim — o código é livre, mas o ecossistema em volta dele gera dinheiro.
-
-### 8. Spring
-
-O **Spring Framework** é o framework usado para estruturar a aplicação e participar do fluxo de execução. É o sistema pré-montado completo.
-
-O **Spring Boot** simplifica a criação, configuração e inicialização de aplicações baseadas no Spring. Prepara o canteiro e liga a energia.
-
-Bibliotecas como Jackson, Hibernate, JUnit e o driver do PostgreSQL fornecem funcionalidades específicas. São as ferramentas.
-
-### 9. Aplicação
-
-A aplicação proposta é um sistema simples de cadastro de pessoas.
-
-Os conceitos apresentados precisam ser identificados no desenvolvimento dessa aplicação:
+### 9. Resumo
 
 - Biblioteca
 - Framework
@@ -113,350 +94,264 @@ Os conceitos apresentados precisam ser identificados no desenvolvimento dessa ap
 - Spring Framework
 - Spring Boot
 
-*(Durante a aula, será mostrado como cada um aparece no código.)*
 
 
-## Slides da Aula
+## Slide 1. PROGRAMAÇÃO WEB
 
----
+### Spring Framework e Spring Boot
 
-### Slide 1 — Título
-
-**Texto:**
-Construindo uma casa para entender o Spring
-
-**Imagem sugerida:** Casa em construção ou terreno vazio com materiais de construção ao lado.
+Bibliotecas, frameworks e ferramentas para desenvolvimento de aplicações Java.
 
 ---
 
-### Slide 2 — Estudar é diferente de acompanhar a aula
+## Slide 2. Assistir aula não é estudar
 
-**Texto:**
-Acompanhar a explicação não é o mesmo que aprender.
-A sensação de "entendi" pode ser enganosa.
-Aprender exige recuperar o conhecimento sozinho, sem consultar material.
+A aula apresenta e organiza os conceitos.
 
-**Imagem sugerida:** Aluno assistindo aula (acompanhando) e aluno resolvendo exercício sozinho (estudando), lado a lado.
+O estudo exige:
 
----
+* leitura
+* revisão
+* prática
+* resolução de problemas
 
-### Slide 3 — Construir uma casa
-
-**Texto:**
-Existe um terreno.
-Existe um objetivo: construir uma casa.
-Existem duas maneiras de fazer isso.
-
-**Imagem sugerida:** Terreno vazio com uma casa desenhada em linha tracejada, como um projeto.
+Texto impresso e auditável.
 
 ---
 
-### Slide 4 — Primeira opção: construção tradicional
+## Slide 3. Construir uma casa
 
-**Texto:**
-O construtor faz tudo:
-- Assenta tijolos um a um
-- Faz a massa
-- Corta a madeira
-- Monta o telhado com telhas de barro de Assu
-- Decide a ordem das tarefas
+Imagine uma pessoa que recebeu um terreno e quer construir uma casa.
 
-O controle está totalmente nas mãos do construtor.
+Duas possibilidades:
 
-**Imagem sugerida:** Pedreiro assentando tijolos, com telhas de barro ao lado.
+### Construção tradicional
 
----
+* terreno nivelado
+* fundação
+* tijolos assentados individualmente
+* massa preparada
+* madeira cortada
+* telhado montado
+* ordem das tarefas definida pelo construtor
 
-### Slide 5 — As ferramentas
-
-**Texto:**
-Durante a obra, o construtor usa ferramentas prontas:
-- Furadeira
-- Betoneira
-- Serrote
-
-Cada ferramenta faz uma tarefa específica.
-O construtor decide quando usar cada uma.
-O controle continua com ele.
-
-**Imagem sugerida:** Ferramentas de construção organizadas: furadeira, betoneira, serrote.
+Ferramentas prontas podem ser utilizadas durante a obra.
 
 ---
 
-### Slide 6 — Segunda opção: sistema pré-montado
+## Slide 4. Construir com um sistema pré montado
 
-**Texto:**
-O proprietário compra um kit de casa pré-fabricada:
-- Painéis de parede de concreto
-- Lajes prontas
-- Estrutura metálica parafusada
-- Telhado de fibrocimento fabricado em indústria
-- Caixa d'água azul de plástico
+Um kit de casa pré fabricada pode fornecer:
 
-Cada peça já vem pronta, no tamanho certo, com encaixes definidos.
+* painéis de parede
+* lajes prontas
+* estrutura metálica
+* telhado de fibrocimento
+* caixa d'água
+* pontos definidos para tomadas e torneiras
+* altura da pia pré definida
 
-**Imagem sugerida:** Kit de casa pré-fabricada com peças empilhadas e organizadas.
+Um manual estabelece a sequência de montagem.
 
----
-
-### Slide 7 — O manual de montagem
-
-**Texto:**
-O kit vem com um manual.
-O manual define a sequência:
-1. Fixe os pilares
-2. Encaixe os painéis
-3. Instale o telhado
-4. Conecte as instalações elétricas e hidráulicas
-
-O construtor não decide a ordem principal.
-Ele executa cada etapa no momento que o manual manda.
-
-**Imagem sugerida:** Manual de instruções de montagem com diagramas numerados.
+A personalização ocorre dentro dos limites definidos pelo sistema.
 
 ---
 
-### Slide 8 — Pontos de personalização
+## Slide 5. Mapeamento dos conceitos
 
-**Texto:**
-O sistema pré-montado não é rígido.
-O construtor pode personalizar:
-- Cor das paredes
-- Tipo de piso
-- Acabamento
-
-O sistema define a estrutura e a sequência.
-O construtor preenche as lacunas nos momentos definidos.
-
-**Imagem sugerida:** Mesma casa pré-fabricada com opções diferentes de cores e acabamentos.
-
----
-
-### Slide 9 — Quem controla a obra?
-
-**Texto:**
-Construção tradicional:
-O construtor controla o fluxo.
-Ele decide quando usar cada ferramenta.
-
-Sistema pré-montado:
-O manual controla o fluxo.
-O construtor executa nos momentos definidos.
-
-O controle do fluxo foi invertido.
-Saiu das mãos do construtor e passou para o sistema construtivo.
-
-**Imagem sugerida:** Dois caminhos: de um lado, pedreiro decidindo; do outro, manual guiando as etapas.
+| Elemento da metáfora                             | Conceito de computação |
+| ------------------------------------------------ | ---------------------- |
+| Ferramentas, como furadeira, betoneira e serrote | Biblioteca             |
+| Inversão do fluxo da obra                        | Inversão de Controle   |
+| Sistema pré montado, composto por kit e manual   | Framework              |
+| Kit específico para casas em Angicos             | Spring Framework       |
+| Canteiro de obras já preparado                   | Scaffolding            |
+| Ligação de energia, água e equipamentos          | Bootstrapping          |
+| Pedido feito para a indústria                    | API                    |
+| Colocar a casa para funcionar                    | Spring Boot            |
 
 ---
 
-### Slide 10 — Canteiro de obras preparado
+## Slide 6. Biblioteca e framework
 
-**Texto:**
-O kit pode vir com o canteiro já pronto:
-- Fundação concluída
-- Terreno nivelado
-- Instalações provisórias montadas
+### Biblioteca
 
-Isso reduz o trabalho inicial.
+Código reutilizável para tarefas específicas.
 
-**Imagem sugerida:** Canteiro de obras limpo, com fundação pronta e materiais organizados.
+A aplicação controla quando a funcionalidade será utilizada.
 
----
+Exemplos:
 
-### Slide 11 — Colocando a casa em funcionamento
+* geração de números aleatórios
+* geração de números primos
+* consulta a banco PostgreSQL
 
-**Texto:**
-Depois que a casa fica pronta, há outra etapa:
-- Ligar a energia
-- Ligar a água
-- Testar os equipamentos
+### Framework
 
-Construir, preparar e funcionar são etapas relacionadas, mas distintas.
+Estrutura que participa da execução da aplicação.
 
-**Imagem sugerida:** Casa pronta com luzes acesas, água saindo da torneira, eletrodomésticos ligados.
+O framework organiza o fluxo e define pontos de execução do código.
 
 ---
 
-### Slide 12 — Pedindo peças para a indústria
+## Slide 7. Inversão de Controle
 
-**Texto:**
-O proprietário precisa de mais peças.
-Ele faz um pedido para a indústria:
-"Quero dez telhas de fibrocimento de 5 por 2."
+### Biblioteca
 
-A indústria recebe o pedido, fabrica ou separa as peças e entrega.
-O proprietário não precisa saber como a telha é feita por dentro.
-Ele só precisa saber o formato do pedido e o que recebe de volta.
+Aplicação
+→ biblioteca
+→ funcionalidade
 
-**Imagem sugerida:** Pessoa fazendo pedido por telefone ou formulário, com fábrica ao fundo entregando peças.
+### Framework
 
----
+Framework
+→ aplicação
+→ código executado nos pontos definidos
 
-### Slide 13 — O mapeamento
-
-**Texto:**
-Agora, os elementos da construção recebem seus nomes na computação.
-
-| Construção | Computação |
-|------------|------------|
-| Ferramentas (furadeira, betoneira) | Biblioteca |
-| Sistema pré-montado (kit + manual) | Framework |
-| Inversão de quem controla a obra | Inversão de controle |
-| Canteiro de obras preparado | Scaffolding |
-| Ligação de energia e água | Bootstrapping |
-| Pedido para a indústria | API |
-
-**Imagem sugerida:** Tabela com ícones de cada elemento ao lado do nome correspondente.
+O controle do fluxo passa para o framework.
 
 ---
 
-### Slide 14 — Biblioteca
+## Slide 8. Scaffolding
 
-**Texto:**
-Código reutilizável.
-Realiza tarefas específicas.
-A aplicação decide quando usá-lo.
-A aplicação mantém o controle do fluxo.
+Estrutura inicial criada para facilitar o início de um projeto.
 
-Aplicação → chama biblioteca → recebe resultado
+Pode incluir:
 
-É como a furadeira: o construtor decide quando usar.
+* diretórios
+* arquivos
+* configurações
+* dependências
+* código inicial
 
-**Imagem sugerida:** Furadeira com etiqueta "Biblioteca".
-
----
-
-### Slide 15 — Framework
-
-**Texto:**
-Estrutura o desenvolvimento da aplicação.
-Organiza parte da execução.
-Determina momentos para execução do código da aplicação.
-
-Framework → conduz a execução → chama código da aplicação → continua a execução
-
-É como o sistema pré-montado: o construtor executa, mas o manual define a sequência.
-
-**Imagem sugerida:** Kit pré-montado com etiqueta "Framework", com manual ao lado.
+É o canteiro de obras preparado.
 
 ---
 
-### Slide 16 — Inversão de controle
+## Slide 9. Bootstrapping
 
-**Texto:**
-Sem framework:
-A aplicação conduz o fluxo.
-A aplicação decide quando usar suas bibliotecas.
+Inicialização da aplicação e preparação dos componentes necessários para sua execução.
 
-Com framework:
-Parte do controle do fluxo passa para o framework.
-O framework determina quando o código da aplicação será executado.
+Pode envolver:
 
-**Imagem sugerida:** Duas setas: uma apontando da aplicação para a biblioteca; outra apontando do framework para a aplicação.
+* carregamento de configurações
+* criação de componentes
+* resolução de dependências
+* inicialização de serviços
 
----
-
-### Slide 17 — Scaffolding
-
-**Texto:**
-Estrutura inicial de um projeto.
-Organização básica já preparada.
-Reduz o trabalho necessário para começar.
-
-É o canteiro de obras já preparado.
-
-**Imagem sugerida:** Canteiro de obras pronto, com fundação e materiais organizados, etiqueta "Scaffolding".
+É a ligação das instalações da casa.
 
 ---
 
-### Slide 18 — Bootstrapping
+## Slide 10. API
 
-**Texto:**
-Inicialização da aplicação.
-Preparação dos componentes necessários para execução.
-Coloca a aplicação em condições de ser executada.
+Interface que define como um componente ou serviço pode ser utilizado.
 
-É ligar a energia e a água da casa.
+Na metáfora:
 
-Scaffolding → criação do projeto.
-Bootstrapping → inicialização para execução.
+Proprietário → construtora → indústria
 
-**Imagem sugerida:** Casa com luzes acesas e água saindo da torneira, etiqueta "Bootstrapping".
+Pedido:
 
----
+`telha, fibrocimento, verde, 10, 5, 2`
 
-### Slide 19 — API
+A API define:
 
-**Texto:**
-Interface para comunicação com um componente ou serviço.
-Define como uma solicitação deve ser realizada.
-Define as regras de utilização.
-Permite obter resultados sem conhecer o funcionamento interno.
+* como solicitar
+* quais parâmetros utilizar
+* quais regras seguir
+* o que será retornado
 
-É o pedido para a indústria.
-
-**Imagem sugerida:** Formulário de pedido com seta para fábrica, etiqueta "API".
+A implementação interna permanece encapsulada.
 
 ---
 
-### Slide 20 — Por que o Spring é de graça?
+## Slide 11. Spring Framework
 
-**Texto:**
+O Spring Framework é um framework para desenvolvimento de aplicações Java.
+
+Fornece mecanismos para:
+
+* criação e gerenciamento de objetos
+* configuração de componentes
+* injeção de dependências
+* integração entre partes da aplicação
+
+---
+
+## Slide 12. Spring Initializr
+
+O Spring Initializr fornece o scaffolding para criação da estrutura inicial do projeto.
+
+[start.spring.io](https://start.spring.io/?utm_source=chatgpt.com)
+
+Permite definir:
+
+* linguagem
+* versão do Java
+* versão do Spring Boot
+* dependências
+* metadados do projeto
+
+---
+
+## Slide 13. Spring Boot
+
+O Spring Boot fornece mecanismos que simplificam o bootstrapping de aplicações baseadas no Spring.
+
+Facilita:
+
+* configuração
+* inicialização
+* gerenciamento de dependências
+* execução da aplicação
+* uso de servidor embutido
+
+---
+
+## Slide 14. Por que o Spring é de graça?
+
 O Spring é um projeto de código aberto.
-O código está disponível para qualquer pessoa usar.
 
-A empresa por trás ganha dinheiro com:
-- Suporte pago
-- Treinamento e certificação
-- Ferramentas complementares
-- Serviços gerenciados
+O código fonte pode ser:
 
-Empresas como Google, Amazon e Netflix usam e contribuem.
-Quanto mais gente usa, mais o projeto fica forte.
+* utilizado
+* estudado
+* modificado
+* distribuído
 
-O código é livre, mas o ecossistema em volta gera dinheiro.
+A empresa responsável pelo ecossistema obtém receita com:
 
-**Imagem sugerida:** Logotipo do Spring com ícones de suporte, treinamento, ferramentas e nuvem ao redor.
-
----
-
-### Slide 21 — Spring
-
-**Texto:**
-Spring Framework:
-Estrutura a aplicação e participa do fluxo de execução.
-É o sistema pré-montado completo.
-
-Spring Boot:
-Simplifica a criação, configuração e inicialização.
-Prepara o canteiro e liga a energia.
-
-Bibliotecas (Jackson, Hibernate, JUnit, driver PostgreSQL):
-Fornecem funcionalidades específicas.
-São as ferramentas.
-
-**Imagem sugerida:** Logotipo do Spring Framework e do Spring Boot, com ícones de bibliotecas ao redor.
+* suporte pago
+* treinamento e certificação
+* ferramentas complementares
+* serviços gerenciados
 
 ---
 
-### Slide 22 — Aplicação de cadastro
+## Slide 15. Ecossistema
 
-**Texto:**
-Sistema simples de cadastro de pessoas.
+Empresas como Google, Amazon e Netflix utilizam Spring.
 
-Os conceitos apresentados serão identificados no desenvolvimento:
+O uso em larga escala permite:
 
-- Biblioteca
-- Framework
-- Scaffolding
-- Bootstrapping
-- API
-- Inversão de controle
-- Spring Framework
-- Spring Boot
+* identificar problemas
+* desenvolver correções
+* incorporar melhorias
+* aumentar a resiliência do projeto
 
-**Imagem sugerida:** Tela simples de cadastro com campos de nome, e-mail e botão salvar, com os conceitos listados ao lado.
+Contribuições podem retornar ao projeto de código aberto.
 
+---
 
+## Slide 16. Conceitos fundamentais
+
+* Biblioteca
+* Framework
+* Inversão de Controle
+* Scaffolding
+* Bootstrapping
+* API
+* Spring Framework
+* Spring Boot
 
