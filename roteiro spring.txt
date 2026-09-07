@@ -8,48 +8,43 @@ Assistir aula não é estudar
 
 Imagine uma pessoa que recebeu um terreno e quer construir uma casa.
 
-Ela tem duas opções.
+Ela tem duas opções: construir do jeito tradicional, construir com um sistema pré-montado.
 
-**Primeira opção: construir do jeito tradicional.**
+opção 1 - jeito tradicional
+A pessoa nivela o terreno, faz a fundação, assenta os tijolos um a um, faz a massa, corta a madeira, monta o telhado com telhas Assu. A pessoa decide a ordem das tarefas, escolhe os materiais, executa tudo com as próprias mãos. Durante a obra, pode usar ferramentas prontas: uma furadeira, uma betoneira, um serrote. Cada ferramenta faz uma tarefa específica quando o construtor decide usar.
 
-Ela assenta os tijolos um a um, faz a massa, corta a madeira, monta o telhado com telhas de barro cozidas em fornos de Assu. Decide a ordem das tarefas, escolhe os materiais, executa tudo com as próprias mãos.
+opção 2 - construir com um sistema pré-montado.
 
-Durante a obra, pode usar ferramentas prontas: uma furadeira, uma betoneira, um serrote. Cada ferramenta faz uma tarefa específica quando o construtor decide usar. O controle da construção continua com ele.
+Em vez de tijolos soltos e telhas artesanais, o proprietário compra um kit de casa pré-fabricada, quase uma casa de montar. O kit vem com painéis de parede de concreto, lajes prontas, estrutura metálica parafusada, telhado de fibrocimento fabricado em indústria, caixa d'água azul de plástico, pontos fixos para cada tomada e cada torneira, altura da pia pré definida. Cada peça já vem pronta, no tamanho certo, com encaixes definidos. O kit vem com um manual de montagem. O manual diz a sequência: primeiro fixe os pilares, depois encaixe os painéis, depois instale o telhado, depois conecte as instalações elétricas e hidráulicas nos pontos que já vêm previstos. Quem compra o kit não decide a ordem principal da obra. Ele executa cada etapa no momento que o manual manda. Ainda dá pra personalizar: escolher a cor das paredes, o tipo de piso, o acabamento.
 
-**Segunda opção: construir com um sistema pré-montado.**
+A diferença está em quem controla o processo. Na construção tradicional, o construtor controla o fluxo e usa ferramentas quando quiser. No sistema pré-montado, o construtor preenche as lacunas nos momentos definidos pelo manual. O controle do fluxo foi invertido: saiu das mãos do construtor e passou para o sistema construtivo.
 
-Em vez de tijolos soltos e telhas artesanais, o proprietário compra um kit de casa pré-fabricada. Vem com painéis de parede de concreto, lajes prontas, estrutura metálica parafusada, telhado de fibrocimento fabricado em indústria, caixa d'água azul de plástico. Cada peça já vem pronta, no tamanho certo, com encaixes definidos.
+Imagine quão mais fácil é se, além de pré-montado, o canteiro de obras já viesse preparado: a fundação pronta, o terreno nivelado, as instalações provisórias montadas, o material a ser usado já encaixotado e perto do canteiro da obra. Tudo isso agiliza o início de tudo e diminui a quantidade de decisões a serem tomadas.
 
-O kit vem com um manual de montagem. O manual diz a sequência: primeiro fixe os pilares, depois encaixe os painéis, depois instale o telhado, depois conecte as instalações elétricas e hidráulicas nos pontos que já vêm previstos.
+Depois que a casa fica pronta, ela tem que ser colocada em funcionamento. É preciso ligar a energia da COSERN, a água da CAERN, testar a carga de energia, esperar a primeira chuva pra ver se tem goteira.
 
-O construtor não decide a ordem principal da obra. Ele executa cada etapa no momento que o manual manda. Mas ele pode personalizar algumas coisas: escolher a cor das paredes, o tipo de piso, o acabamento. O sistema pré-montado tem pontos de personalização.
+Tem outra consideração, imagine que o proprietário precise de peças, tipo uma telha que quebrou durante a obra. Ele não fabrica as peças, mas ele faz um pedido para a construtora, que vai pedir para a indústria de telhas: "quero dez telhas de fibrocimento de 5 por 2" (telha, fibrocimento, verde, 5, 2). A indústria recebe o pedido, fabrica ou separa as peças e entrega. O proprietário não precisa saber como a telha é feita por dentro, só precisa saber o formato do pedido e o que vai receber de volta.
 
-A diferença fundamental está em quem controla o processo. Na construção tradicional, o construtor controla o fluxo e usa ferramentas quando quiser. No sistema pré-montado, o construtor preenche as lacunas nos momentos definidos pelo manual. O controle do fluxo foi invertido: saiu das mãos do construtor e passou para o sistema construtivo.
+Vê-se que no sistema pré-moldado, dá pra mudar pouca coisa, mas garante-se a homogeneidade, padronização e que consiga-se construir muitas casas do mesmo jeito. Um encanador que trabalha nesse tipo de casa sabe exatamente onde ficam os pontos, independente da casa.
 
-O kit também pode vir com o canteiro de obras já preparado: a fundação pronta, o terreno nivelado, as instalações provisórias montadas. Isso reduz o trabalho inicial.
-
-Depois que a casa fica pronta, há uma etapa diferente: colocar a casa em funcionamento. É preciso ligar a energia, a água, testar os equipamentos. Construir, preparar e funcionar são etapas relacionadas, mas distintas.
-
-Agora imagine que o proprietário precise de mais peças depois. Ele não fabrica as peças. Ele faz um pedido para a indústria: "quero dez telhas de fibrocimento de 5 por 2". A indústria recebe o pedido, fabrica ou separa as peças e entrega. O proprietário não precisa saber como a telha é feita por dentro. Ele só precisa saber o formato do pedido e o que vai receber de volta.
-
-Agora, os elementos da construção recebem seus nomes na computação.
+Em computação, cada conceito apresentado tem seu equivalente.
 
 ### 3. Mapeamento dos conceitos
 
 | Elemento da metáfora | Conceito de computação |
 |----------------------|------------------------|
 | Ferramentas (furadeira, betoneira, serrote) | Biblioteca |
-| Sistema pré-montado (kit + manual) | Framework |
 | Inversão de quem controla o fluxo da obra | Inversão de controle |
+| Sistema pré-montado (kit + manual) | Framework |
+| Kit específico para casas em Angicos | Spring Framework |
 | Canteiro de obras já preparado | Scaffolding |
 | Ligação de energia, água, equipamentos | Bootstrapping |
 | Pedido feito para a indústria | API |
-| Kit específico para casas naquele padrão | Spring Framework |
-| Mecanismos que preparam o canteiro e ligam a casa | Spring Boot |
+| Botar a casa pra funcionar | Spring Boot |
 
 ### 4. Biblioteca e framework
 
-Uma **biblioteca** fornece código reutilizável para tarefas específicas. A aplicação usa a biblioteca quando precisa daquela funcionalidade e mantém o controle do fluxo. É como a furadeira: o construtor decide quando usar e ela faz apenas aquilo para o que foi projetada.
+Uma **biblioteca** fornece código reutilizável para tarefas específicas. A aplicação usa a biblioteca quando precisa daquela funcionalidade e mantém o controle do fluxo. É como a furadeira: o construtor decide quando usar e ela faz apenas aquilo para o que foi projetada. Por exemplo, geração de números aleatórios, geração de números primos, fazer uma consulta num bd postgres.
 
 Um **framework** fornece uma estrutura mais ampla e participa da execução da aplicação. O framework organiza o fluxo e determina os momentos em que o código do programador será executado. É como o sistema pré-montado: o construtor executa as tarefas, mas a sequência e a integração são definidas pelo manual.
 
