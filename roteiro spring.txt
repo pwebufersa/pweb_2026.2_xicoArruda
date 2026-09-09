@@ -1,9 +1,3 @@
-## Roteiro da Aula
-
-Assistir aula não é estudar
-
-- Texto impresso e auditável
-
 ### 2. Construir uma casa
 
 Imagine uma pessoa que recebeu um terreno e quer construir uma casa.
@@ -94,50 +88,6 @@ Google, Amazon e Netflix usam o Spring. Quando encontram problemas, corrigem e e
 - Spring Framework
 - Spring Boot
 
-
-
-## Slide 1. PROGRAMAÇÃO WEB
-
-### Spring Framework e Spring Boot
-
-Bibliotecas, frameworks e ferramentas para desenvolvimento de aplicações Java.
-
----
-
-## Slide 2. Assistir aula não é estudar
-
-A aula apresenta e organiza os conceitos.
-
-O estudo exige:
-
-* leitura
-* revisão
-* prática
-* resolução de problemas
-
-Texto impresso e auditável.
-
----
-
-## Slide 3. Construir uma casa
-
-Imagine uma pessoa que recebeu um terreno e quer construir uma casa.
-
-Duas possibilidades:
-
-### Construção tradicional
-
-* terreno nivelado
-* fundação
-* tijolos assentados individualmente
-* massa preparada
-* madeira cortada
-* telhado montado
-* ordem das tarefas definida pelo construtor
-
-Ferramentas prontas podem ser utilizadas durante a obra.
-
----
 
 ## Slide 4. Construir com um sistema pré montado
 
