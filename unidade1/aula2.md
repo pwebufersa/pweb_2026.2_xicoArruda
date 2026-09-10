@@ -6,7 +6,7 @@ Na aula, vimos: CadPessoas - Projeto Spring, HTML, CSS, MVC, Index, Maven.
 
 ### Parte 1 - CRUD Spring Boot
 
-1. Crie o projeto (_scaffolding_) no [Spring Initializr](https://start.spring.io/) seguindo as [instruções](https://drive.google.com/open?id=17htKMi-29yO4uio_4ObtZQA5SBqs5jgm). São 7 dependências, maven, java 21. Substitua o nome do professor pelo seu nome.
+1. Crie o projeto (_scaffolding_) no [Spring Initializr](https://start.spring.io/) seguindo as [instruções](https://drive.google.com/open?id=17htKMi-29yO4uio_4ObtZQA5SBqs5jgm). São 7 dependências, maven, java 25. Substitua o nome do professor pelo seu nome.
 2. Baixe e descompacte o projeto criado no Spring Initializr na pasta _u1_exercicio2_, dentro da pasta onde fica o seu repositório da disciplina.
 3. Abra o projeto no VSCode.
 4. Crie ou edite os arquivos .java, .html e .css conforme visto na aula e nos vídeos. Os arquivos do u1_exercicio1 servirão de base para esse passo.
