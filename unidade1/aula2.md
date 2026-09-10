@@ -1,4 +1,4 @@
-### U1 - Aula 2 - 10/10/2025 (2,0)
+### U1 - Aula 2 - 28/08/2026 (2,0)
 
 Veja o que são os seguintes conteúdos: Framework, API, SDK, Design System, Scaffolding, Boilerplate, GUI, CLI, Arquitetura web em 3 camadas, Spring, Spring Boot, Template Engine, CRUD, MVC.
 
