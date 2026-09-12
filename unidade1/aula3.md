@@ -1,4 +1,4 @@
-### U1 - Aula 1 - 21/08/2026 (3,0)
+### U1 - Aula 3 - 28/08/2026 (3,0)
 
 Ambiente, VSCode, Java, GitHub Desktop, Front e Back End, repositório no GitHub, CadPessoas - Front-end com HTML, CSS, JS.
 

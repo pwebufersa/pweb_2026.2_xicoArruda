@@ -1,4 +1,4 @@
-### U1 - Aula 2 - 28/08/2026 (3,0)
+### U1 - Aula 4 - 11/09/2026 (3,0)
 
 CadPessoas - Back-end com Spring.
 
