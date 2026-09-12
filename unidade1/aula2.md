@@ -1,6 +1,6 @@
 ### U1 - Aula 2 - 28/08/2026 (3,0)
 
-CadPessoas - Front-end.
+CadPessoas - Back-end com Spring.
 
 ### Parte 1 - CRUD Spring Boot
 

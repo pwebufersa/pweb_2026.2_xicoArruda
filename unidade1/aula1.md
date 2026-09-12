@@ -1,5 +1,6 @@
 ### U1 - Aula 1 - 21/08/2026 (3,0)
-Ambiente, VSCode, Java, GitHub Desktop, Front e Back End, repositório no GitHub, HTML, CSS.
+
+Ambiente, VSCode, Java, GitHub Desktop, Front e Back End, repositório no GitHub, CadPessoas - Front-end com HTML, CSS, JS.
 
 ### Parte 0 - HTML, encoding e CSS
 1. Encoding [errado](encoding_errado.html).
@@ -21,7 +22,7 @@ Ambiente, VSCode, Java, GitHub Desktop, Front e Back End, repositório no GitHub
 9. Imite esse [site](u1_exercicio1_pt1.jpg). Pesquise as tags na [w3c](https://www.w3schools.com/TAGS/default.ASP) ou na [MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTML).
 10. Após concluir, faça _commit_ e _push_.
 
-### Parte 2 - HTML, CSS, Javascript e Design System (1,0)
+### Parte 2 - HTML, CSS, Javascript e Design System
 
 1. Usando HTML, CSS e Javascript, recrie o site descrito a seguir. Coloque tudo na pasta **u1_exercicio1**. No total você entregará 8 arquivos .html, 1 pasta **assets** com 2 imagens e 1 arquivo **design-system.?**. Valide pelo menos um campo do formulário com Javascript.
 

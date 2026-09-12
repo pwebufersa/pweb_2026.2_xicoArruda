@@ -18,7 +18,7 @@
 
 ### Aula 2 - 28/08/2026 (3,0)
 
-- **Tópicos:** CadPessoas - Front-end.
+- **Tópicos:** CadPessoas - Front-end com HTML, CSS, JS.
 - **Exercícios:** [Clique aqui](unidade1/aula2.md)
 - **Prazo de entrega:** 27/09/2026 até 23:59 
 
