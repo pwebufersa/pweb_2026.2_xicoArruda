@@ -4,28 +4,28 @@
 
 ## Unidade 1
 
-### Aula 0 - 14/08/2026 (0,0)
+### Aula 1 - 14/08/2026 (0,0)
 
 - **Tópicos:** Como vai ser a disciplina.
 - **Exercícios:** Não teve.
 - **Prazo de entrega:** Não tem.
 
-### Aula 1 - 21/08/2026 (0,0)
+### Aula 2 - 21/08/2026 (0,0)
 
 - **Tópicos:** Ambiente, VSCode, Java, GitHub Desktop, Front e Back End, repositório no GitHub, HTML, CSS.
-- **Exercícios:** [Clique aqui](unidade1/aula1.md)
-- **Prazo de entrega:** 04/09/2026 até 23:59
+- **Exercícios:** Não teve.
+- **Prazo de entrega:** Não tem.
 
-### Aula 2 - 28/08/2026 (3,0)
+### Aula 3 - 28/08/2026 (3,0)
 
 - **Tópicos:** CadPessoas - Front-end com HTML, CSS, JS.
-- **Exercícios:** [Clique aqui](unidade1/aula2.md)
+- **Exercícios:** [Clique aqui](unidade1/aula3.md)
 - **Prazo de entrega:** 27/09/2026 até 23:59 
 
-### Aula 3 - 11/09/2026 (3,0)
+### Aula 4 - 11/09/2026 (3,0)
 
 - **Tópicos:** CadPessoas - Back-end com Spring.
-- **Exercícios:** [Clique aqui](unidade1/aula2.md)
+- **Exercícios:** [Clique aqui](unidade1/aula4.md)
 - **Prazo de entrega:** 27/09/2026 até 22:10 
 
 ---
