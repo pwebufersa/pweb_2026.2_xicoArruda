@@ -1,4 +1,4 @@
-### U1 - Aula 1 - 21/08/2026 (1,0)
+### U1 - Aula 1 - 21/08/2026 (3,0)
 Ambiente, VSCode, Java, GitHub Desktop, Front e Back End, repositório no GitHub, HTML, CSS.
 
 ### Parte 0 - HTML, encoding e CSS
