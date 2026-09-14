@@ -20,7 +20,7 @@
 
 - **Tópicos:** CadPessoas - Front-end com HTML, CSS, JS.
 - **Exercícios:** [Clique aqui](unidade1/aula3.md)
-- **Prazo de entrega:** 27/09/2026 até 23:59 
+- **Prazo de entrega:** 03/09/2026 até 23:59 
 
 ### Aula 4 - 11/09/2026 (3,0)
 
