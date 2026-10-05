@@ -12,7 +12,7 @@ Bacharelado em Sistemas de Informação - **BSI** | Licenciatura em Computação
 
 # Sistema para loja de calçados - PéFrioShop
 
-Neste semestre, será projetado e desenvolvido um sistema de informação online para uma loja de calçados. A implementação será feita de forma incremental, com 2 *milestones* - em cada um novas funcionalidades são adicionadas. Em sistemas maiores teriam gestão de estoque, financeiro, funcionários e marketing. Mas esse escopo é ***muito grande*** para 2 meses! Então, o professor (que é uma mãe) simplificou o projeto.
+Neste semestre, será projetado e desenvolvido um sistema de informação online para uma loja de calçados. A implementação será feita de forma incremental, com 2 *milestones* - em cada um novas funcionalidades são adicionadas. Em sistemas maiores haveria gestão de estoque, financeiro, funcionários e marketing. Mas esse escopo é ***muito grande*** para 2 meses! Então, o professor (que é uma mãe) simplificou o projeto.
 
 *User Stories* são uma forma de expressar ***requisitos funcionais*** desejados para o sistema (*o que o sistema faz*, e **não** como ele faz). As *user stories* foram priorizadas pelo cliente na ordem a seguir.
 
