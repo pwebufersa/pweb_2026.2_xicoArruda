@@ -269,11 +269,11 @@ O primeiro dia de atraso resulta em desconto de 4,0 pontos na nota da unidade. D
 
 Se não gostou das *user stories*, pode substituir a nota de alguma delas por um dos desafios a seguir:
 
-1. Validar telefone com JS
-2. Usar Tailwind CSS
+1. Validar campos com JS
+2. Usar Tailwind CSS ou Bootstrap
 3. Fazer o projeto em REST
-4. Usar outra *template engine* no lugar do Thymeleaf
+4. Usar outra *template engine* no lugar do Thymeleaf (Freemarker, Mustache ou JTE)
 5. SPA com React
 6. App mobile com Flutter
-7. Melhorar a UI do pedido com JS vanilla
+7. Melhorar a UI do pedido com Ajax
 8. Usar PostgreSQL no lugar do H2
