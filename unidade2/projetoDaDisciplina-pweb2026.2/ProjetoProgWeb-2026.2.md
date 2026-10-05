@@ -26,7 +26,7 @@ Neste semestre, será projetado e desenvolvido um sistema de informação online
 
 **User Story 1 - Manter e exibir informações de um cliente (1,0 ponto)**
 
-Adicione um novo cliente ao sistema. Manter as seguintes informações: id (autogerado), nome completo, gênero (Masculino / Feminino / Não Informado), rua, bairro, número, cidade, CEP, e-mail e telefone com DDD. Tudo num CRUD: *Create, Read, Update, Delete*.
+Adicione um novo cliente ao sistema. Manter as seguintes informações: id (autogerado), nome completo, gênero (Masculino / Feminino / Não Informado), endereço completo com rua, bairro, número, cidade, CEP, e-mail e telefone com DDD. Tudo num CRUD: *Create, Read, Update, Delete*.
 
 ---
 
