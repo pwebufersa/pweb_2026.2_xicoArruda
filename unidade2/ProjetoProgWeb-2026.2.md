@@ -136,7 +136,7 @@ Exiba em tabela os clientes cadastrados em um mês e ano informados pelo usuári
 classDiagram
     class Cliente {
         - nomeCompleto: String
-        - genero: ???
+        - genero: ?
         - email: String
         - telefone: String
         // endereço...
@@ -144,25 +144,25 @@ classDiagram
     }
 
     class FichaClinicaDoPe {
-        - comprimentoCm: ???
-        - pisada: ???
-        - temJoanete: ???
+        - comprimentoCm: ?
+        - pisada: ?
+        - temJoanete: ?
         // outros campos...
         // get, set, toString()
     }
 
     class Produto {
         - nome: String
-        - tipo: ???
-        - numeroBR: ???
-        - precoCompra: ???
-        - precoVenda: ???
+        - tipo: ?
+        - numeroBR: ?
+        - precoCompra: ?
+        - precoVenda: ?
         // outros campos...
         // get, set, toString()
     }
 
     class Pedido {
-        - dataPedido: ???
+        - dataPedido: ?
         // get, set, toString()
     }
 
@@ -173,7 +173,7 @@ classDiagram
     }
 
     class PagamentoDoPedido {
-        - tipo: ???
+        - tipo: ?
         - dadosPagamento: String
         // get, set, toString()
     }
