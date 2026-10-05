@@ -257,7 +257,7 @@ O primeiro dia de atraso resulta em desconto de 4,0 pontos na nota da unidade. D
 ## Dicas e considerações
 
 1. Não resolva um problema que você ainda não tem.
-2. Leia o [Manifesto Ágil](http://agilemanifesto.org/iso/ptbr/manifesto.html) e seus [12 princípios](https://robsoncamargo.com.br/blog/Manifesto-Agil-entenda-como-surgiu-e-conheca-os-12-principios).
+2. Leia o [Manifesto Ágil](http://agilemanifesto.org/iso/ptbr/manifesto.html).
 3. Ao apagar um cliente (CRUD - Delete), apague todos os registros em cascata. Na vida real isso não se faz, mas facilita o seu trabalho. Não transforme o update em insert.
 4. Qualquer campo calculável deve ser *calculado*. Não guarde no banco valores que o código pode obter.
 5. Na *user story* de pedido, o ideal seria uma tabela separada de itens faturados com os valores no momento da compra - isso preserva o histórico para os relatórios gerenciais sem que alterações futuras de produto baguncem tudo.
