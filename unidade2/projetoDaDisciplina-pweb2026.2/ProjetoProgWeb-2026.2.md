@@ -135,39 +135,47 @@ Exiba em tabela os clientes cadastrados em um mês e ano informados pelo usuári
 ```mermaid
 classDiagram
     class Cliente {
-        - nome: ???
+        - nomeCompleto: String
         - genero: ???
-        - contato: ???
+        - email: String
+        - telefone: String
         // endereço...
+        // get, set, toString()
     }
 
     class FichaClinicaDoPe {
-        - comprimento: ???
+        - comprimentoCm: ???
         - pisada: ???
-        - joanete: ???
+        - temJoanete: ???
         // outros campos...
+        // get, set, toString()
     }
 
     class Produto {
-        - descricao: ???
+        - nome: String
         - tipo: ???
-        - numero: ???
-        - preco: ???
+        - numeroBR: ???
+        - precoCompra: ???
+        - precoVenda: ???
         // outros campos...
+        // get, set, toString()
     }
 
     class Pedido {
-        - data: ???
+        - dataPedido: ???
+        // get, set, toString()
     }
 
     class ItemPedido {
-        - qtd: ???
-        - valor: ???
+        - quantidade: int
+        - valorUnitario: BigDecimal
+        // get, set, toString()
     }
 
     class PagamentoDoPedido {
         - tipo: ???
-        - dados: ???
+        - dadosPagamento: String
+        // get, set, toString()
     }
 
     Cliente "1" --> "0..1" FichaClinicaDoPe : possui
