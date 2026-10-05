@@ -84,7 +84,7 @@ Faça uma página de contato com um botão para iniciar uma conversa no WhatsApp
 
 **User Story 9 - E-mail promocional (1,5 ponto)**
 
-Faça uma funcionalidade que envie um e-mail para o cliente com 5% de desconto no tênis mais caro do último pedido, 30 dias após a compra.
+Faça uma funcionalidade que envie um e-mail para o cliente com 5% de desconto no tênis mais caro do último pedido, 30 dias após a compra. Você decide como disparar o envio: um botão manual na interface ou um agendamento automático.
 
 ---
 
@@ -135,46 +135,39 @@ Exiba em tabela os clientes cadastrados em um mês e ano informados pelo usuári
 ```mermaid
 classDiagram
     class Cliente {
-        - nomeCompleto: String
+        - nome: ???
         - genero: ???
-        - email: String
-        - telefone: String
+        - contato: ???
         // endereço...
-        // get, set, toString()
     }
 
     class FichaClinicaDoPe {
-        - comprimentoCm: double
+        - comprimento: ???
         - pisada: ???
-        - temJoanete: boolean
+        - joanete: ???
         // outros campos...
-        // get, set, toString()
     }
 
     class Produto {
-        - nome: String
+        - descricao: ???
         - tipo: ???
-        - numeroBR: int
-        - precoVenda: BigDecimal
+        - numero: ???
+        - preco: ???
         // outros campos...
-        // get, set, toString()
     }
 
     class Pedido {
-        - dataPedido: LocalDate
-        // get, set, toString()
+        - data: ???
     }
 
     class ItemPedido {
-        - quantidade: int
-        - valorUnitario: BigDecimal
-        // get, set, toString()
+        - qtd: ???
+        - valor: ???
     }
 
     class PagamentoDoPedido {
         - tipo: ???
-        - dadosPagamento: String
-        // get, set, toString()
+        - dados: ???
     }
 
     Cliente "1" --> "0..1" FichaClinicaDoPe : possui
@@ -204,12 +197,12 @@ O design system deve ser aplicado em todas as telas do sistema.
 
 ### Experiência do Usuário (UX)
 
-No mesmo arquivo `design-system.md`, documente também a jornada do usuário no sistema. Isso é uma decisão de engenharia, não de código - e você é o engenheiro.
+No mesmo arquivo `design-system.md`, documente também a jornada do usuário no sistema.
 
 Pense e registre:
 
 - Qual é a tela inicial do sistema? O que o usuário vê ao acessar pela primeira vez?
-- Como o usuário navega entre as funcionalidades (menu, abas, botões, breadcrumb)?
+- Como o usuário navega entre as funcionalidades (menu, abas, botões)?
 - Qual é o fluxo para realizar um pedido do início ao fim?
 - Como o usuário retorna à tela anterior ou desfaz uma ação?
 
@@ -231,7 +224,13 @@ Não compilou, zero.
 
 **Qualidade do código**
 
-Serão avaliadas as variáveis e métodos, organização dos pacotes, ausência de loops desnecessários, gambiarras, código duplicado, números mágicos e nomes mal escolhidos. Também serão avaliados: modularização, cascatas de *ifs*, tratamento de exceções, estilo homogêneo, respeito ao padrão MVC, uso correto do Thymeleaf e dos princípios do JPA.
+Serão avaliados os itens a seguir. Cada um com problema grave zera o item correspondente.
+
+- Nomes de variáveis, métodos e pacotes: nomes genéricos como `dados`, `obj`, `x` ou `temp` penalizam a nota.
+- Números mágicos: valores literais no meio do código sem constante nomeada penalizam a nota.
+- Padrão MVC: lógica de negócio no controller ou no template Thymeleaf penaliza a nota.
+- JPA: uso de SQL/JPQL manual onde o Spring Data resolve com um método de repositório penaliza a nota.
+- Código duplicado: blocos copiados e colados penalizam a nota.
 
 **Completude**
 
