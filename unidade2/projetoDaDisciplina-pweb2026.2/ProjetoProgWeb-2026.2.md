@@ -108,7 +108,7 @@ Modifique o CRUD de produto, acrescentando a foto do produto. O arquivo da foto 
 
 **User Story 13 - Frete para Marte (2,0 pontos)**
 
-Exiba em tabela o código, o nome, o preço e o número BR de todos os produtos, ordenados do menor para o maior número BR. Para cada item, exiba o frete estimado de Angicos/RN até Marte (R$ 987.654,00 por par).
+Exiba em tabela o código, o nome, o preço e o número BR de todos os produtos, ordenados do menor para o maior número BR. Para cada item, exiba o frete estimado de Angicos/RN até Marte (R$ 987.654,33 por par).
 
 ---
 
@@ -130,7 +130,7 @@ Exiba em tabela os clientes cadastrados em um mês e ano informados pelo usuári
 
 ---
 
-## Diagrama de Classes
+## Diagrama de Classes (sugestão de modelagem)
 
 ```mermaid
 classDiagram
@@ -186,9 +186,13 @@ classDiagram
 
 ---
 
-## Design System
+## Design System e Experiência do Usuário
 
-O sistema PéFrioShop deve ter uma identidade visual própria, criada por você. Crie um arquivo `design-system.md` dentro da pasta do projeto. O design system deve ser baseado em **uma foto colorida de sua autoria** - a foto original deve estar na pasta do projeto.
+O sistema PéFrioShop deve ter uma identidade visual própria, criada por você. Crie um arquivo `design-system.md` dentro da pasta do projeto.
+
+### Design System
+
+O design system deve ser baseado em **uma foto colorida de sua autoria** - a foto original deve estar na pasta do projeto.
 
 O arquivo deve conter:
 
@@ -197,6 +201,19 @@ O arquivo deve conter:
 3. A tipografia escolhida: fonte para títulos e fonte para corpo de texto.
 
 O design system deve ser aplicado em todas as telas do sistema.
+
+### Experiência do Usuário (UX)
+
+No mesmo arquivo `design-system.md`, documente também a jornada do usuário no sistema. Isso é uma decisão de engenharia, não de código - e você é o engenheiro.
+
+Pense e registre:
+
+- Qual é a tela inicial do sistema? O que o usuário vê ao acessar pela primeira vez?
+- Como o usuário navega entre as funcionalidades (menu, abas, botões, breadcrumb)?
+- Qual é o fluxo para realizar um pedido do início ao fim?
+- Como o usuário retorna à tela anterior ou desfaz uma ação?
+
+Não há resposta certa. Há respostas pensadas e respostas que não foram pensadas.
 
 ---
 
