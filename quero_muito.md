@@ -7,94 +7,42 @@
 ### Aula 1 - 14/08/2026 (0,0)
 
 - **Tópicos:** Como vai ser a disciplina.
-- **Exercícios:** Não teve.
-- **Prazo de entrega:** Não tem.
 
 ### Aula 2 - 21/08/2026 (0,0)
 
-- **Tópicos:** Ambiente, VSCode, Java, GitHub Desktop, Front e Back End, repositório no GitHub, HTML, CSS.
-- **Exercícios:** Não teve.
-- **Prazo de entrega:** Não tem.
+- **Tópicos:** Ambiente, VSCode, Java, GitHub Desktop, front e back end, repositório no GitHub, HTML, CSS.
 
 ### Aula 3 - 28/08/2026 (3,0)
 
 - **Tópicos:** CadPessoas - Front-end com HTML, CSS, JS.
 - **Exercícios:** [Clique aqui](unidade1/aula3.md)
-- **Prazo de entrega:** 03/09/2026 até 23:59 
+- **Prazo de entrega:** 03/09/2026 até 23:59
 
 ### Aula 4 - 11/09/2026 (3,0)
 
 - **Tópicos:** CadPessoas - Back-end com Spring.
 - **Exercícios:** [Clique aqui](unidade1/aula4.md)
-- **Prazo de entrega:** 27/09/2026 até 22:10 
+- **Prazo de entrega:** 27/09/2026 até 22:10
 
 ---
 
 ## Unidade 2
 
-### Aula X - 18/09/2026 (1,0)
+### Aula 5 - 09/10/2026 (5,0)
 
-- **Tópicos:** Explicação do projeto da disciplina. Encurtador de URL.
-- **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
-- **Prazo de entrega:** 01/10/2026 até 22:10 
-
-### Aula X - 25/09/2026 (1,0)
-
-- **Tópicos:** Explicação do projeto da disciplina. Encurtador de URL.
-- **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
-- **Prazo de entrega:** 01/10/2026 até 22:10 
-
-### Aula X - 02/10/2026 (2,0)
-
-- **Tópicos:** CRUD de Cliente, CRUD de Produto.
-- **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
-- **Prazo de entrega:** 15/10/2026 até 22:10 
-
-### Aula X - 16/10/2026 (3,0)
-
-- **Tópicos:** Correção da Unidade 2, CRUD de Dependente, CRUD de Pedido.
-- **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
-- **Prazo de entrega:** 29/10/2026 até 22:10 
-
-### Aula X - 23/10/2026 (3,0)
-
-- **Tópicos:** Correção da Unidade 2, CRUD de Dependente, CRUD de Pedido.
-- **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
-- **Prazo de entrega:** 29/10/2026 até 22:10 
+- **Tópicos:** Projeto da disciplina - PéFrioShop. Milestone 1 (US 1, 2, 3 e 4).
+- **Projeto:** [Clique aqui](unidade2/projetoDaDisciplina-pweb2026.2/ProjetoProgWeb-2026.2.md)
+- **Prazo de entrega:** 14/11/2026 até 23:59
 
 ---
 
 ## Unidade 3
 
-### Aula X - 30/10/2026 (1,0)
+### Aula 6 - 05/12/2026 (5,0)
 
-- **Tópicos:** Faça o projeto da disciplina - Milestone 2.
-- **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
-- **Prazo de entrega:** 12/11/2026 até 23:59 
-
-### Aula X - 06/11/2026 (1,0)
-
-- **Tópicos:** Faça o projeto da disciplina - Milestone 2.
-- **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
-- **Prazo de entrega:** 12/11/2026 até 23:59 
-
-### Aula X - 13/11/2026 (2,0)
-
-- **Tópicos:** Faça o projeto da disciplina - Milestone 2.
-- **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
-- **Prazo de entrega:** 03/12/2026 até 23:59 
-
-### Aula X - 27/11/2026 (2,0)
-
-- **Tópicos:** Faça o projeto da disciplina - Milestone 2.
-- **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
-- **Prazo de entrega:** 03/12/2026 até 23:59 
-
-### Aula X - 04/12/2026 (3,0)
-
-- **Tópicos:** Faça o projeto da disciplina - Milestone 2.
-- **Projeto:** [Clique aqui](https://drive.google.com/open?id=1RcEHRDmUOkoTNoliyVLK8pdFsp2yXEmL)
-- **Prazo de entrega:** 05/12/2026 até 22:10 
+- **Tópicos:** Milestone 2 (US 5 a 16).
+- **Projeto:** [Clique aqui](unidade2/projetoDaDisciplina-pweb2026.2/ProjetoProgWeb-2026.2.md)
+- **Prazo de entrega:** 05/12/2026 até 23:59
 
 ---
 
@@ -104,7 +52,7 @@
 - [Google Drive](https://drive.google.com/open?id=16I2WfDFZMKDNZGPu1Wq2rl1uceQUZjr6) (use sua conta institucional)
 
 ### Apostila Caelum
-- [Apostila Completa](https://www.alura.com.br/apostila-java-web)
+- [Java Web - Alura/Caelum](https://www.alura.com.br/apostila-java-web)
 
 ### Vídeos - Java Web e Spring
 - [Dicionário do Programador](https://www.youtube.com/watch?v=j_F0cz0em04)
@@ -117,10 +65,10 @@
 - [Loiane Groner](https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r)
 - [Gustavo Guanabara](https://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY)
 
-### Cursos - Git e GitHub
+### Git e GitHub
 - [Loiane Groner](https://www.youtube.com/watch?v=UMhskLXJuq4)
 - [Gustavo Guanabara](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-- [Markdown - Gustavo Guanabara](/git_github_gguanabara)
+- [Markdown - Gustavo Guanabara](https://github.com/gustavoguanabara/git-github)
 
 ### Um site muito rápido
 - [McMaster-Carr](https://www.mcmaster.com/)
