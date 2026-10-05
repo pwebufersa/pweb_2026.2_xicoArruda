@@ -17,6 +17,7 @@ Neste semestre, será projetado e desenvolvido um sistema de informação online
 *User Stories* são uma forma de expressar ***requisitos funcionais*** desejados para o sistema (*o que o sistema faz*, e **não** como ele faz). As *user stories* foram priorizadas pelo cliente na ordem a seguir.
 
 **Milestone 1** - até 14/11/2026 - Implemente as *user stories* 1, 2, 3 e 4.
+
 **Milestone 2** - até 05/12/2026 - Escolha e implemente outras *user stories*.
 
 ---
