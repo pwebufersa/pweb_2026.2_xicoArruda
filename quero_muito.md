@@ -41,7 +41,7 @@
 ### Aula 6 - 05/12/2026 (5,0)
 
 - **Tópicos:** Milestone 2 (US 5 a 16).
-- **Projeto:** [Clique aqui](unidade2/projetoDaDisciplina-pweb2026.2/ProjetoProgWeb-2026.2.md)
+- **Projeto:** [Clique aqui](unidade2/projetoDaDisciplina-pweb2026.2/ProjetoProgWeb-2026.2.md#user-stories---milestone-2)
 - **Prazo de entrega:** 05/12/2026 até 23:59
 
 ---
