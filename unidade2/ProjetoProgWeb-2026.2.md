@@ -220,7 +220,7 @@ Não há resposta certa. Há respostas pensadas e respostas que não foram pensa
 
 ## O que entregar
 
-Entregue o código-fonte no repositório da disciplina no GitHub. Crie uma pasta na raiz do repositório com o nome `peFrio_primeiroNomeSegundoNome`. O professor deve conseguir rodar o projeto com `./mvnw spring-boot:run` sem sua ajuda.
+Entregue o código-fonte no repositório da disciplina no GitHub. Crie uma pasta na raiz do repositório com o nome `peFrioShop_primeiroNomeSegundoNome`. O professor deve conseguir rodar o projeto com `./mvnw spring-boot:run` sem sua ajuda.
 
 ---
 
