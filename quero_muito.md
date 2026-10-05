@@ -32,7 +32,7 @@
 
 - **Tópicos:** Projeto da disciplina - PéFrioShop. Milestone 1 (US 1, 2, 3 e 4).
 - **Projeto:** [Clique aqui](unidade2/projetoDaDisciplina-pweb2026.2/ProjetoProgWeb-2026.2.md)
-- **Prazo de entrega:** 14/11/2026 até 23:59
+- **Prazo de entrega:** até 14/11/2026 - 23:59
 
 ---
 
@@ -42,7 +42,7 @@
 
 - **Tópicos:** Milestone 2 (US 5 a 16).
 - **Projeto:** [Clique aqui](unidade2/projetoDaDisciplina-pweb2026.2/ProjetoProgWeb-2026.2.md#user-stories---milestone-2)
-- **Prazo de entrega:** 05/12/2026 até 23:59
+- **Prazo de entrega:** até 05/12/2026 - 23:59
 
 ---
 
