@@ -286,9 +286,9 @@ O console do DevTools apresenta mensagens úteis para localizar erros.
 
 ---
 
-## Exercício = Atividade Online 4
+## Exercício - Atividade Online 4
 
-Faça o projeto em [codesandbox.io](https://codesandbox.io) e cole a saída no moodle.
+Faça o projeto em [codesandbox.io](https://codesandbox.io) ou outro editor e cole seu código completo no Moodle.
 
 Substituir o conteúdo do `index.html` por:
 
