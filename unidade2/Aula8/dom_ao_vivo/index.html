@@ -2,20 +2,19 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>DOM ao Vivo</title>
-  <link rel="stylesheet" href="estilo.css">
+  <title>Mudando o DOM ao Vivo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h2>DOM ao Vivo — Slide 8</h2>
+  <h2>Mudando o DOM ao Vivo</h2>
 
   <div class="grade">
 
-    <!-- Coluna esquerda: página real -->
     <div class="painel">
-      <h3>Página no navegador</h3>
+      <h3>Página renderizada</h3>
       <div id="pagina">
-        <h1 id="titulo">Verificador de Nota</h1>
+        <h1 id="titulo">Verificar a Nota</h1>
         <p>Digite uma nota de 0 a 10:</p>
         <input type="number" id="campoNota" min="0" max="10" step="0.1" placeholder="ex: 7.5">
         <button onclick="verificar()">Verificar</button>
@@ -25,15 +24,16 @@
 
     <!-- Coluna direita: árvore DOM -->
     <div class="painel">
-      <h3>Árvore DOM (ao vivo)</h3>
+      <h3>Árvore DOM</h3>
       <div id="arvore"></div>
     </div>
 
   </div>
 
-  <!-- Log de chamadas DOM -->
-  <div class="painel" id="log">
-    <h3>Chamadas ao DOM</h3>
+  <!-- Código JavaScript ao vivo -->
+  <div class="painel" id="painel-codigo">
+    <h3>Código JavaScript</h3>
+    <pre id="codigo-js"></pre>
   </div>
 
   <script src="dom.js"></script>

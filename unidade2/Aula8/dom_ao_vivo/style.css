@@ -92,7 +92,7 @@ h2 { color: #9cdcfe; margin-top: 0; }
 .destaque {
   background: #264f78;
   border-radius: 3px;
-  padding: 0 4px;
+  padding: 2px 4px;
   animation: piscar 0.4s ease-in-out 3;
 }
 
@@ -100,20 +100,3 @@ h2 { color: #9cdcfe; margin-top: 0; }
   0%, 100% { background: #264f78; }
   50%       { background: #005a9e; }
 }
-
-/* Log de chamadas */
-#log {
-  margin-top: 1rem;
-  font-size: 0.8rem;
-}
-
-.entrada-log {
-  border-left: 3px solid #569cd6;
-  padding: 0.2rem 0.5rem;
-  margin: 0.2rem 0;
-  background: #1e1e1e;
-}
-
-.entrada-log .metodo    { color: #dcdcaa; }
-.entrada-log .argumento { color: #ce9178; }
-.entrada-log .retorno   { color: #b5cea8; }
