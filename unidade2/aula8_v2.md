@@ -1,6 +1,6 @@
-# Aula 8 — JavaScript: conceitos fundamentais
+# Aula 8 - JavaScript: conceitos fundamentais
 
-## Slide 2 — Cliente-servidor
+## Slide 2 - Cliente-servidor
 
 > *[imagem: diagrama cliente-servidor da aula 7, lado do navegador destacado]*
 
@@ -28,9 +28,9 @@ A linguagem JavaScript pode ser executada tanto no navegador quanto no servidor.
 
 ---
 
-## Slide 3 — Estrutura, aparência e comportamento
+## Slide 3 - Estrutura, aparência e comportamento
 
-> *[imagem: ícones HTML/CSS/JS — padrão das aulas 3-5]*
+> *[imagem: ícones HTML/CSS/JS - padrão das aulas 3-5]*
 
 Desde a aula 3, trabalha-se com três camadas:
 
@@ -44,7 +44,7 @@ JavaScript permite programar o comportamento da página no navegador.
 
 ---
 
-## Slide 4 — Variáveis
+## Slide 4 - Variáveis
 
 > *[imagem: console do DevTools com typeof]*
 
@@ -54,9 +54,9 @@ let nota  = 7.5;     // número
 let ativo = true;    // verdadeiro/falso
 ```
 
-- `let` — variável que pode receber outro valor.
-- `const` — variável que não pode ser reatribuída.
-- `var` — declaração antiga, com escopo de função; deve ser evitada em código moderno.
+- `let` - variável que pode receber outro valor.
+- `const` - variável que não pode ser reatribuída.
+- `var` - declaração antiga, com escopo de função; deve ser evitada em código moderno.
 
 JavaScript possui tipagem dinâmica: os valores possuem tipos e as variáveis podem receber valores de tipos diferentes ao longo da execução.
 
@@ -66,7 +66,7 @@ O TypeScript surgiu como uma extensão do JavaScript com suporte a tipagem está
 
 ---
 
-## Slide 5 — if / else
+## Slide 5 - if / else
 
 > *[imagem: fluxograma de decisão com três saídas: aprovado, recuperação, reprovado]*
 
@@ -89,15 +89,15 @@ if (nota >= 7) {
 JavaScript possui dois operadores comuns de igualdade:
 
 ```js
-"7" == 7    // true  — permite coerção de tipo
-"7" === 7   // false — compara valor e tipo
+"7" == 7    // true  - permite coerção de tipo
+"7" === 7   // false - compara valor e tipo
 ```
 
 O operador `===` deve ser preferido. Ele evita comparações com coerção implícita de tipos.
 
 ---
 
-## Slide 6 — for e while
+## Slide 6 - for e while
 
 > *[imagem: captura do console com cinco iterações listadas]*
 
@@ -137,7 +137,7 @@ A condição precisa eventualmente se tornar falsa. Caso contrário, o laço pod
 
 ---
 
-## Slide 7 — Funções
+## Slide 7 - Funções
 
 > *[imagem: diagrama entrada/processamento/saída]*
 
@@ -153,9 +153,9 @@ function calcularSituacao(nota) {
 }
 ```
 
-- `function` — declara a função.
-- `nota` — parâmetro que recebe o valor de entrada.
-- `return` — devolve o resultado.
+- `function` - declara a função.
+- `nota` - parâmetro que recebe o valor de entrada.
+- `return` - devolve o resultado.
 
 Chamando a função:
 
@@ -169,11 +169,11 @@ console.log(calcularSituacao(3.0)); // "Reprovado"
 
 ---
 
-## Slide 8 — Conectando JavaScript ao HTML
+## Slide 8 - Conectando JavaScript ao HTML
 
 > *[imagem: página com campo de nota, botão verificar e parágrafo de resultado]*
 
-JavaScript pode acessar e modificar a página por meio do DOM — Document Object Model.
+JavaScript pode acessar e modificar a página por meio do DOM - Document Object Model.
 
 O DOM representa os elementos da página como objetos que podem ser consultados e manipulados pelo JavaScript.
 
@@ -203,7 +203,7 @@ Permite associar uma ação ao clique de um botão:
 
 ---
 
-## Slide 9 — Exemplo completo
+## Slide 9 - Exemplo completo
 
 > *[imagem: página rodando no navegador com "Aprovado" visível]*
 
@@ -249,8 +249,8 @@ Permite associar uma ação ao clique de um botão:
 </html>
 ```
 
-- `parseFloat` — converte uma representação textual em número decimal.
-- `Number.isNaN` — verifica se o resultado da conversão é `NaN`.
+- `parseFloat` - converte uma representação textual em número decimal.
+- `Number.isNaN` - verifica se o resultado da conversão é `NaN`.
 - `calcularSituacao` concentra a regra de negócio e não depende do HTML.
 - `verificar` faz a ligação entre a página e a função de cálculo.
 
@@ -258,7 +258,7 @@ O arquivo pode ser salvo como `index.html` e aberto no navegador. O console do D
 
 ---
 
-## Slide 10 — Erros comuns
+## Slide 10 - Erros comuns
 
 > *[imagem: captura do Chrome com erro vermelho no console]*
 
@@ -274,19 +274,19 @@ O console do DevTools apresenta mensagens úteis para localizar erros.
 
 ---
 
-## Slide 11 — Resumo
+## Slide 11 - Resumo
 
-- `if / else if / else` — estruturas condicionais.
-- `for` e `while` — estruturas de repetição.
-- `let` e `const` — declarações modernas de variáveis.
-- `function`, parâmetros e `return` — definição e uso de funções.
-- `getElementById`, `textContent` e `onclick` — recursos básicos para interação com o DOM.
-- `parseFloat` e `Number.isNaN` — conversão e validação de valores numéricos.
+- `if / else if / else` - estruturas condicionais.
+- `for` e `while` - estruturas de repetição.
+- `let` e `const` - declarações modernas de variáveis.
+- `function`, parâmetros e `return` - definição e uso de funções.
+- `getElementById`, `textContent` e `onclick` - recursos básicos para interação com o DOM.
+- `parseFloat` e `Number.isNaN` - conversão e validação de valores numéricos.
 - Próxima aula: eventos e manipulação de listas no DOM.
 
 ---
 
-# Exercício — Aula 8
+# Exercício - Aula 8
 
 ## O que fazer
 
@@ -304,7 +304,7 @@ O usuário informa os dados e aciona o botão. A função `verificar()` lê os v
 
 ## Ponto de partida
 
-[codesandbox.io](https://codesandbox.io) — projeto estático.
+[codesandbox.io](https://codesandbox.io) - projeto estático.
 
 Substituir o `index.html` por:
 
