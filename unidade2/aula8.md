@@ -139,8 +139,8 @@ if (nota >= 7) {
 JavaScript tem dois operadores de igualdade. Essa é uma das armadilhas clássicas da linguagem:
 
 ```js
-"7" == 7    // true  — coerção de tipo: JS tenta converter antes de comparar
-"7" === 7   // false — compara valor E tipo: string não é igual a number
+"7" == 7    // true  - coerção de tipo: JS tenta converter antes de comparar
+"7" === 7   // false - compara valor E tipo: string não é igual a number
 ```
 
 Sempre use `===`. O `==` faz conversões automáticas que produzem resultados inesperados.

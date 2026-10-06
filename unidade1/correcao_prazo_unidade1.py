@@ -37,7 +37,7 @@ def main(root):
                     texto = data.strftime("%d/%m/%Y %H:%M:%S %z")
 
                     output.write(
-                        f'- <span style="color:red"><b>{repo.name}</b> — '
+                        f'- <span style="color:red"><b>{repo.name}</b> - '
                         f'`{texto}`</span>\n'
                     )
             except subprocess.CalledProcessError:
