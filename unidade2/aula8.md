@@ -1,17 +1,17 @@
 # Programação WEB - Aula 8
-## Estruturas de Controle e Funções em JavaScript
+## Aprofundando JavaScript
 
 ---
 
 ## Slide 1 - Capa
 
 **Programação WEB - Aula 8**
-Estruturas de Controle e Funções
+Aprofundando JavaScript
 `xico@ufersa.edu.br`
 
 ---
 
-## Slide 2 - Onde paramos
+## Slide 2 - Cliente-servidor
 
 > *[imagem: diagrama cliente-servidor da aula 7, lado do navegador destacado]*
 
@@ -58,9 +58,9 @@ A sintaxe do JavaScript não é a mais bonita - mas é o que o navegador entende
 > *[imagem: console do DevTools com typeof]*
 
 ```js
-let nome  = "Maria";  // texto
-let nota  = 7.5;      // número
-let ativo = true;     // verdadeiro/falso
+let nome  = "Joao";  // texto
+let nota  = 7.5;     // número
+let ativo = true;    // verdadeiro/falso
 ```
 
 - `let` - pode mudar de valor
@@ -69,7 +69,7 @@ let ativo = true;     // verdadeiro/falso
 
 O JavaScript detecta o tipo automaticamente pois tem tipagem dinâmica, é conveniente mas fonte de erros clássicos.
 
-Essa ausência de tipos explícitos incomoda tanto que surgiu o TypeScript: JavaScript com declaração de tipos obrigatória, que é verificada em tempo de codificação antes do código rodar. Em projetos maiores, TypeScript é padrão. Nesta disciplina, JavaScript puro é suficiente.
+Essa ausência de tipos explícitos incomoda tanto que surgiu o TypeScript: JavaScript com declaração de tipos obrigatória, verificada em tempo de codificação antes do código rodar. Em projetos maiores, TypeScript é padrão. Nesta disciplina, JavaScript puro é suficiente.
 
 ---
 
@@ -275,20 +275,16 @@ F12, aba Console. Leia o erro antes de tentar corrigir.
 
 ---
 
-## Slide 11 - Resumo e exercício
+## Slide 11 - Resumo
 
-> *[imagem: mapa visual aulas 7-8]*
+- `if / else if / else` - mesma lógica de Programação de Computadores, sintaxe igual a Java
+- `for` e `while` - mesmos laços de Programação de Computadores
+- `let` e `const` ficam no bloco onde foram declarados; `var` vaza - evite
+- `function` com parâmetros e `return` - mesmo conceito de método
+- `getElementById`, `textContent`, `onclick` - pontes entre JavaScript e HTML
+- `parseFloat` e `isNaN` - ler e validar campo numérico
+- Próxima aula: eventos e manipulação de listas no DOM
 
-- `if / else if / else` - decisão (mesma lógica de Programação de Computadores)
-- `for` / `while` - repetição com controle de condição
-- `function` - bloco com nome, parâmetros e `return`
-- `getElementById` + `textContent` + `onclick` - pontes entre JavaScript e HTML
-- `parseFloat` + `isNaN` - leitura e validação de campo numérico
-- `calcularSituacao` funciona igual no navegador e no servidor Express
-
-**Próxima aula:** eventos e manipulação de listas no DOM.
-
----
 ---
 
 # Exercício - Aula 8
@@ -336,7 +332,7 @@ Construir uma página que verifica a situação de um aluno - nome e nota - e ex
       const nota = parseFloat(document.getElementById("campoNota").value);
       const resultado = document.getElementById("resultado");
 
-      // complete o código aqui
+
     }
   </script>
 
@@ -348,50 +344,10 @@ Construir uma página que verifica a situação de um aluno - nome e nota - e ex
 
 ## O que implementar
 
-Complete a função `verificar()`. A função `calcularSituacao` já está pronta - não altere.
+Complete a função `verificar()`.
 
 Se o nome estiver vazio ou a nota for inválida, exiba uma mensagem e encerre a função. Caso contrário, calcule a situação e exiba o nome junto com o resultado. A cor do texto deve refletir a situação: verde para aprovado, laranja para recuperação e vermelho para reprovado.
 
----
-
-## Pista para a cor
-
 ```js
-resultado.style.color = "green"; // ou "orange" ou "red"
+resultado.style.color = "green";
 ```
-
-
-
----
-
-## Notas de produção
-
-> Não entra no vídeo.
-
-| Slide | Imagem |
-|---|---|
-| 2 | diagrama cliente-servidor da aula 7, navegador destacado |
-| 3 | ícones HTML/CSS/JS - padrão das aulas 3-5 |
-| 4 | captura do DevTools com typeof |
-| 5 | fluxograma if/else com três saídas (Excalidraw ou draw.io) |
-| 6 | captura do console com iterações 0-4 |
-| 7 | diagrama entrada/processamento/saída |
-| 8 | captura de página com campo, botão e resultado visível |
-| 9 | captura da página rodando com "Aprovado" visível |
-| 10 | captura do Chrome com erro vermelho no console |
-| 11 | mapa mental aulas 7-8 (Excalidraw) |
-
-| Slide | min |
-|---|---|
-| 1 Capa | 0:30 |
-| 2 Onde paramos | 1:30 |
-| 3 Estrutura/Aparência/Comportamento | 1:00 |
-| 4 Variáveis | 1:30 |
-| 5 if/else | 3:00 |
-| 6 for e while | 2:30 |
-| 7 Funções | 3:00 |
-| 8 getElementById e onclick | 2:30 |
-| 9 O exemplo completo | 5:00 |
-| 10 Erros comuns | 2:00 |
-| 11 Resumo e exercício | 1:30 |
-| **Total** | **~24:00** |
