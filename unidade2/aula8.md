@@ -286,27 +286,11 @@ O console do DevTools apresenta mensagens úteis para localizar erros.
 
 ---
 
-# Exercício - Aula 8
+## Exercício = Atividade Online 4
 
-## O que fazer
+Faça o projeto em [codesandbox.io](https://codesandbox.io) e cole a saída no moodle.
 
-Construir uma página que verifica a situação de um aluno a partir de seu nome e de sua nota.
-
-O fluxo será:
-
-```text
-usuário → HTML → JavaScript → cálculo → HTML
-```
-
-O usuário informa os dados e aciona o botão. A função `verificar()` lê os valores do HTML, utiliza `calcularSituacao()` para determinar a situação e apresenta o resultado na página.
-
----
-
-## Ponto de partida
-
-[codesandbox.io](https://codesandbox.io) - projeto estático.
-
-Substituir o `index.html` por:
+Substituir o conteúdo do `index.html` por:
 
 ```html
 <!DOCTYPE html>
@@ -319,7 +303,7 @@ Substituir o `index.html` por:
 
   <h1>Verificador de Nota</h1>
 
-  <label for="campoNome">Nome:</label>
+  <label for="campoNome">Nome completo:</label>
   <input type="text" id="campoNome">
 
   <label for="campoNota">Nota (0 a 10):</label>
@@ -341,7 +325,6 @@ Substituir o `index.html` por:
       const nota = parseFloat(document.getElementById("campoNota").value);
       const resultado = document.getElementById("resultado");
 
-
     }
   </script>
 
@@ -351,23 +334,12 @@ Substituir o `index.html` por:
 
 ---
 
-## O que implementar
+## O que entregar
 
-Completar a função `verificar()`.
+Completar a função `verificar()` com:
 
-Requisitos:
-
-- Se o nome estiver vazio, exibir uma mensagem e encerrar a função.
-- Se a nota for inválida, exibir uma mensagem e encerrar a função.
+- Se o nome estiver vazio, exibir uma mensagem de erro.
+- Se a nota for inválida, exibir uma mensagem de erro.
 - Caso os dados sejam válidos, calcular a situação usando `calcularSituacao()`.
 - Exibir o nome junto com a situação.
-- Usar uma cor diferente para cada situação:
-  - verde para aprovado;
-  - laranja para recuperação;
-  - vermelho para reprovado.
-
-Para alterar a cor do texto:
-
-```js
-resultado.style.color = "green";
-```
+- Usar uma cor diferente para cada situação (verde para aprovado, laranja para recuperação, vermelho para reprovado).

@@ -1,0 +1,119 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: monospace;
+  margin: 0;
+  padding: 1rem;
+  background: #1e1e1e;
+  color: #d4d4d4;
+}
+
+h2 { color: #9cdcfe; margin-top: 0; }
+
+/* Layout: página à esquerda, árvore DOM à direita */
+.grade {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.painel {
+  background: #252526;
+  border: 1px solid #3c3c3c;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.painel h3 {
+  margin: 0 0 0.75rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6a9955;
+}
+
+/* Página de demonstração */
+#pagina {
+  background: #fff;
+  color: #111;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+#pagina h1 { font-size: 1.1rem; margin: 0 0 0.5rem; }
+#pagina p  { margin: 0 0 0.5rem; }
+
+#pagina input {
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.9rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+#pagina button {
+  background: #0078d4;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+#pagina button:hover { background: #005a9e; }
+
+#resultado {
+  font-weight: bold;
+  min-height: 1.2em;
+}
+
+/* Árvore DOM */
+#arvore {
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+.no {
+  padding-left: 1.2rem;
+  border-left: 1px dashed #444;
+  margin-left: 0.4rem;
+}
+
+.tag      { color: #4ec9b0; }
+.atributo { color: #9cdcfe; }
+.valor    { color: #ce9178; }
+.texto    { color: #d7ba7d; font-style: italic; }
+
+/* Destaque quando o nó é alterado */
+.destaque {
+  background: #264f78;
+  border-radius: 3px;
+  padding: 0 4px;
+  animation: piscar 0.4s ease-in-out 3;
+}
+
+@keyframes piscar {
+  0%, 100% { background: #264f78; }
+  50%       { background: #005a9e; }
+}
+
+/* Log de chamadas */
+#log {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+.entrada-log {
+  border-left: 3px solid #569cd6;
+  padding: 0.2rem 0.5rem;
+  margin: 0.2rem 0;
+  background: #1e1e1e;
+}
+
+.entrada-log .metodo    { color: #dcdcaa; }
+.entrada-log .argumento { color: #ce9178; }
+.entrada-log .retorno   { color: #b5cea8; }
