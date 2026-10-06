@@ -1,16 +1,3 @@
-# Programação WEB - Aula 8
-## Aprofundando JavaScript
-
----
-
-## Slide 1 - Capa
-
-**Programação WEB - Aula 8**
-Aprofundando JavaScript
-`xico@ufersa.edu.br`
-
----
-
 ## Slide 2 - Cliente-servidor
 
 > *[imagem: diagrama cliente-servidor da aula 7, lado do navegador destacado]*
